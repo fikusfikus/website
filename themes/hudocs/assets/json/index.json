@@ -1,0 +1,27 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- $langPrefix := "^/[a-z]{2}/" -}}
+{{- $regex := "^(/[^/]+/)([^/]+)/.*$" -}}
+
+{{- range $index, $page := .Site.Pages -}}
+  {{- if .File -}}
+
+    {{- $cleanPath := replaceRE $langPrefix "/" $page.RelPermalink -}}
+    {{- $parentSection := replaceRE $regex "$2" $cleanPath -}}
+    {{- $summary := truncate 120 $page.Plain | default (i18n "no_summary") -}}
+
+    {{- if or $page.Title (truncate 120 $page.Plain) -}}
+      {{- $.Scratch.Add "index" (dict
+        "id" $index
+        "url" $page.RelPermalink
+        "summary" $summary
+        "title" $page.Title
+        "parent" $parentSection
+      ) -}}
+    {{- end -}}
+
+  {{- end -}}
+{{- end -}}
+
+{
+  "documents": {{ .Scratch.Get "index" | jsonify }}
+}
