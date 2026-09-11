@@ -1,0 +1,3 @@
+[submodule "themes/hudocs"]
+	path = themes/hudocs
+	url = https://github.com/zkreations/hudocs
