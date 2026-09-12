@@ -1,0 +1,11 @@
+// You can add your own custom SCSS here.
+
+:root {
+// light theme stuff to deal with later
+//  --bg-main: #color;
+
+// dark theme stuff
+  &.dark {
+    --bg-main: #222222;
+  }
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>jonny&#39;s website</title>
+		<link>http://localhost:1313/1.0/</link>
+		<description>Recent content on jonny&#39;s website</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/1.0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Instalación</title>
+				<link>http://localhost:1313/1.0/installation.es/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/1.0/installation.es/</guid>
+				<description>&lt;p&gt;Esta página es un ejemplo de cómo podría estructurarse la documentación de una versión hipotética 1.0. Las instrucciones mostradas a continuación son únicamente ilustrativas y no representan una instalación real.&lt;/p&gt;&#xA;&lt;h2 id=&#34;requisitos&#34;&gt;&#xA;  Requisitos&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#requisitos&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo 0.164.0 o superior&lt;/li&gt;&#xA;&lt;li&gt;Git instalado&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instalación&#34;&gt;&#xA;  Instalación&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#instalaci%c3%b3n&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;En un proyecto real, la versión 1.0 podría añadirse como un submódulo de Git:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/example/project themes/example&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Installation</title>
+				<link>http://localhost:1313/1.0/installation/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/1.0/installation/</guid>
+				<description>&lt;p&gt;This page is an example of how installation documentation could be structured for a hypothetical version 1.0. The instructions below are for demonstration purposes only and do not represent an actual installation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;&#xA;  Requirements&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#requirements&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo 0.164.0 or higher&lt;/li&gt;&#xA;&lt;li&gt;Git installed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;&#xA;  Install&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#install&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In a real project, version 1.0 could be added as a Git submodule:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/example/project themes/example&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Configuración</title>
+				<link>http://localhost:1313/1.0/configuration.es/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/1.0/configuration.es/</guid>
+				<description>&lt;p&gt;Esta página es un ejemplo de cómo podrían documentarse las opciones de configuración de una versión hipotética 1.0. Los ajustes mostrados son únicamente ilustrativos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;configuración-básica&#34;&gt;&#xA;  Configuración básica&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#configuraci%c3%b3n-b%c3%a1sica&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;El siguiente ejemplo muestra una configuración básica utilizando un archivo TOML:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;baseURL&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://example.com/&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mi documentación&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;description&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Sitio de documentación de ejemplo&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;author&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Example&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;configuración-del-tema&#34;&gt;&#xA;  Configuración del tema&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#configuraci%c3%b3n-del-tema&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Se podrían definir opciones adicionales dentro de la sección &lt;code&gt;params&lt;/code&gt;:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Configuration</title>
+				<link>http://localhost:1313/1.0/configuration/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/1.0/configuration/</guid>
+				<description>&lt;p&gt;This page is an example of how configuration options could be documented for a hypothetical version 1.0. The settings shown here are for demonstration purposes only.&lt;/p&gt;&#xA;&lt;h2 id=&#34;basic-configuration&#34;&gt;&#xA;  Basic configuration&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#basic-configuration&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The following example shows a basic configuration using a TOML file:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;baseURL&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://example.com/&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;My Documentation&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;description&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Example documentation site&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;author&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Example&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;theme-settings&#34;&gt;&#xA;  Theme settings&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#theme-settings&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Additional options could be defined under the &lt;code&gt;params&lt;/code&gt; section:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;showVersion&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;enableSearch&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;showLastUpdated&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;show-version&#34;&gt;&#xA;  Show version&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#show-version&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Controls whether the current documentation version is displayed:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Changelog</title>
+				<link>http://localhost:1313/1.0/changelog.es/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/1.0/changelog.es/</guid>
+				<description>&lt;p&gt;Esta página es un ejemplo de cómo podría estructurarse el registro de cambios de un proyecto. Las versiones y cambios mostrados a continuación son ficticios y se incluyen únicamente con fines demostrativos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;100&#34;&gt;&#xA;  1.0.0&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#100&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Añadido&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Añadido un nuevo sistema de navegación para la documentación.&lt;/li&gt;&#xA;&lt;li&gt;Añadido soporte para búsqueda integrada.&lt;/li&gt;&#xA;&lt;li&gt;Añadidos indicadores de versión en las páginas de documentación.&lt;/li&gt;&#xA;&lt;li&gt;Añadida la posibilidad de mostrar la fecha de última actualización.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mejorado&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Changelog</title>
+				<link>http://localhost:1313/1.0/changelog/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/1.0/changelog/</guid>
+				<description>&lt;p&gt;This page is an example of how a changelog could be structured for a project. The versions and changes listed below are fictional and are provided for demonstration purposes only.&lt;/p&gt;&#xA;&lt;h2 id=&#34;100&#34;&gt;&#xA;  1.0.0&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#100&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Added&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added a new documentation navigation system.&lt;/li&gt;&#xA;&lt;li&gt;Added built-in search support.&lt;/li&gt;&#xA;&lt;li&gt;Added version indicators to documentation pages.&lt;/li&gt;&#xA;&lt;li&gt;Added support for displaying the last updated date.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Improved&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improved page loading performance.&lt;/li&gt;&#xA;&lt;li&gt;Improved navigation on mobile devices.&lt;/li&gt;&#xA;&lt;li&gt;Improved the documentation layout and typography.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fixed&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/1.0/_index.es/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/1.0/_index.es/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

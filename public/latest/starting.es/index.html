@@ -1,0 +1,1677 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<meta charset="UTF-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+
+<title>Empezando | jonny&#39;s website</title>
+<meta name="description" content=""/>
+<link rel="icon" href='/favicon.svg' type="image/svg+xml"/>
+<meta name="color-scheme" content="light dark">
+<script>const storedTheme=localStorage.getItem("theme"),prefersDark=window.matchMedia("(prefers-color-scheme: dark)").matches,theme=storedTheme==="system"?prefersDark?"dark":"light":storedTheme||"light";document.documentElement.classList.add(theme)</script>
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name="description" content="¡Hola! Este es un ejemplo de tu nueva documentación. Realicé este proyecto para documentar fácilmente mis propios proyectos, pero pense que estaría genial compartirlo, asi te ahorrarás el tiempo que me tomó aprender todo lo que finalmente, resultó en esta documentación. ¡Ojala realices muchos trabajos!
+Características # Optimizado compatible con Core Web Vitals Nivel de Seguridad A&#43; en Mozilla Observatory Soporte para múltiples idiomas Sin dependencias Buscador avanzado automatizado Tema claro y oscuro Shortcodes para alertas, notas, tablas, etc. Bloques de código avanzados Alta personalización Requisitos # Hugo 0.164.0 o superior (versión extendida) Git - Instalar Git Ganas de documentar Instalar # Ve a la raíz de tu proyecto de Hugo y ejecuta el siguiente comando:
+">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Empezando">
+<meta property="og:description" content="¡Hola! Este es un ejemplo de tu nueva documentación. Realicé este proyecto para documentar fácilmente mis propios proyectos, pero pense que estaría genial compartirlo, asi te ahorrarás el tiempo que me tomó aprender todo lo que finalmente, resultó en esta documentación. ¡Ojala realices muchos trabajos!
+Características # Optimizado compatible con Core Web Vitals Nivel de Seguridad A&#43; en Mozilla Observatory Soporte para múltiples idiomas Sin dependencias Buscador avanzado automatizado Tema claro y oscuro Shortcodes para alertas, notas, tablas, etc. Bloques de código avanzados Alta personalización Requisitos # Hugo 0.164.0 o superior (versión extendida) Git - Instalar Git Ganas de documentar Instalar # Ve a la raíz de tu proyecto de Hugo y ejecuta el siguiente comando:
+">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="jonny&amp;#39;s website">
+  <link rel="canonical" href="http://localhost:1313/latest/starting.es/">
+  <meta property="og:url" content="http://localhost:1313/latest/starting.es/">
+  <meta name="twitter:url" content="http://localhost:1313/latest/starting.es/">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Empezando">
+<meta name="twitter:description" content="¡Hola! Este es un ejemplo de tu nueva documentación. Realicé este proyecto para documentar fácilmente mis propios proyectos, pero pense que estaría genial compartirlo, asi te ahorrarás el tiempo que me tomó aprender todo lo que finalmente, resultó en esta documentación. ¡Ojala realices muchos trabajos!
+Características # Optimizado compatible con Core Web Vitals Nivel de Seguridad A&#43; en Mozilla Observatory Soporte para múltiples idiomas Sin dependencias Buscador avanzado automatizado Tema claro y oscuro Shortcodes para alertas, notas, tablas, etc. Bloques de código avanzados Alta personalización Requisitos # Hugo 0.164.0 o superior (versión extendida) Git - Instalar Git Ganas de documentar Instalar # Ve a la raíz de tu proyecto de Hugo y ejecuta el siguiente comando:
+">
+    <link rel="preload" href="/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/scss/main.min.e80fbc4cc918828b841e08386a4a6ceadb65888afc2fd869658d5b91700d0979.css" integrity="sha256-6A&#43;8TMkYgouEHgg4akps6ttliIr8L9hpZY1bkXANCXk=">
+
+    <script src="/js/bundle.min.f116b8e3a32ed54ff41689730a75412291422abe5c41faef8a411b1a99287c0a.js" integrity="sha256-8Ra446Mu1U/0FolzCnVBIpFCKr5cQfrvikEbGpkofAo=" defer></script><script src="/flexsearch.bundle.min_13841517052725719104.min.8fc13a72a59d679bb7bf765a24e59b4b60d2f09d52839a9c1020461ad2adcd9f.js" integrity="sha256-j8E6cqWdZ5u3v3ZaJOWbS2DS8J1Sg5qcECBGGtKtzZ8=" defer></script>
+  <script src="/js/en.search.min.f2cefe44e287418a4661bc5f18b4bab521e952e3bf1fd30783c45ec7ca947018.js" integrity="sha256-8s7&#43;ROKHQYpGYbxfGLS6tSHpUuO/H9MHg8Rex8qUcBg=" defer></script>
+  </head>
+  <body class="fs-7 fw-400">
+    <div class="template flex column">
+      <header class="header">
+        <div class="container">
+  <div class="header-wrapper flex items-center relative">
+    <div class="header-left flex items-center"><button class="header-toggle" data-outside="docs-sidebar" aria-label="toggle navigation">
+          
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-bars"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M20 6H4m16 12H4m16-6H4"/>
+
+        
+      </svg>
+    
+  
+
+        </button><div class="header-logo flex items-center fw-500">
+        <a class="has-icon i-md" href='/'>
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-book-open flex-none header-logo-icon"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M22 18H2V3h6a4 4 0 014 4 4 4 0 014-4h6ZM12 7v14"/>
+
+        
+      </svg>
+    
+  
+Jonny&#39;s Website</a>
+      </div>
+    </div><div class="header-middle">
+        <button class="search-toggle has-icon" data-outside="search-box" aria-label='Search'>
+          
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-search flex-none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+  
+
+  
+
+
+  <circle cx="10" cy="10" r="7"/>
+
+        
+          
+
+
+  
+
+
+  <path d="m21 21-6.05-6.05"/>
+
+        
+      </svg>
+    
+  
+
+          <span>Search in doc</span>
+        </button>
+      </div><div class="header-right">
+      <button class="toggle-theme" data-outside="docs-mode" aria-label='System'>
+        
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-sun"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+  
+
+  
+
+
+  <circle cx="12" cy="12" r="4"/>
+
+        
+          
+
+
+  
+
+
+  <path d="m6.34 17.66-1.41 1.41M19.07 4.93l-1.41 1.41M2 12h2m16 0h2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M12 2v2m0 16v2"/>
+
+        
+      </svg>
+    
+  
+
+        
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-moon"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M21 12a9 9 0 11-9-9 1 1 0 009 9Z"/>
+
+        
+      </svg>
+    
+  
+
+      </button><a class="toc-toggle" href="#doc" aria-label='Table of contents toogle'>
+          
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-bars-sort"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M8 18H4m10-6H4m16-6H4"/>
+
+        
+      </svg>
+    
+  
+
+        </a>
+        <button class="toggle-version" data-outside="docs-versions" aria-label='Versions' id="current-version">
+          latest
+        </button></div>
+
+    <div class="dropdown" id="docs-mode">
+      <div class="list fw-500 theme-handle">
+        <button class="list-link has-icon" data-theme="system">
+          
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-desktop"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <rect height="15" rx="2" width="22" x="1" y="3"/>
+
+        
+          
+
+
+  
+
+
+  <path d="M23 13H1m11 8v-3m5 3H7"/>
+
+        
+      </svg>
+    
+  
+
+          System
+        </button>
+        <button class="list-link has-icon" data-theme="light">
+          
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-sun"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+  
+
+  
+
+
+  <circle cx="12" cy="12" r="4"/>
+
+        
+          
+
+
+  
+
+
+  <path d="m6.34 17.66-1.41 1.41M19.07 4.93l-1.41 1.41M2 12h2m16 0h2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M12 2v2m0 16v2"/>
+
+        
+      </svg>
+    
+  
+
+          Light
+        </button>
+        <button class="list-link has-icon" data-theme="dark">
+          
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-moon"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M21 12a9 9 0 11-9-9 1 1 0 009 9Z"/>
+
+        
+      </svg>
+    
+  
+
+          Dark
+        </button>
+      </div>
+    </div>
+
+    <div class="dropdown" id="docs-versions">
+      <div class="list fw-500">
+        
+          
+            
+              <a class="list-link" href="/latest/">Latest</a>
+            
+              <a class="list-link" href="/1.0/">1.0</a>
+            
+          
+        
+        <a class="list-link" href='/'>Versions</a>
+      </div>
+    </div></div>
+</div>
+      </header>
+      
+      <div class="doc container" id="doc">
+        <aside class="aside" id="docs-sidebar">
+          <div class="aside-tree scrollable">
+  <div class="aside-menu fw-500">
+  
+  <ul class="menu-list">
+    
+      <li class="menu-item is-parent">
+        
+          
+  
+  <a href="http://localhost:1313/latest/starting.es/" data-name="starting.es" class="menu-link fs-6 is-active has-icon">
+    
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-coffee"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M6 1v3m4-3v3m4-3v3m4 12h1a1 1 0 000-8H2v9a4 4 0 004 4h8a4 4 0 004-4zV8"/>
+
+        
+      </svg>
+    
+  
+Empezando</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/starting/" data-name="starting" class="menu-link fs-6 has-icon">
+    
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-coffee"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M6 1v3m4-3v3m4-3v3m4 12h1a1 1 0 000-8H2v9a4 4 0 004 4h8a4 4 0 004-4zV8"/>
+
+        
+      </svg>
+    
+  
+Starting</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        <input class="menu-toggle" type="checkbox" id="menu-1870918dd237ecab3216d41c0280dd0c">
+          
+
+          <label for="menu-1870918dd237ecab3216d41c0280dd0c" class="menu-label">
+  
+  
+  <a href="http://localhost:1313/latest/options/" data-name="options" class="menu-link fs-6 has-icon">
+    
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-gear"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+  
+
+  
+
+
+  <circle cx="12" cy="12" r="3"/>
+
+        
+          
+
+
+  
+
+
+  <path d="M10 21a1 1 0 004 0 1.8 1.8 0 012.95-1.22 1 1 0 002.83-2.83A1.8 1.8 0 0121 14a1 1 0 000-4 1.8 1.8 0 01-1.22-2.95 1 1 0 00-2.83-2.83A1.8 1.8 0 0114 3a1 1 0 00-4 0 1.8 1.8 0 01-2.95 1.22 1 1 0 00-2.83 2.83A1.8 1.8 0 013 10a1 1 0 000 4 1.8 1.8 0 011.22 2.95 1 1 0 002.83 2.83A1.8 1.8 0 0110 21Z"/>
+
+        
+      </svg>
+    
+  
+Options</a>
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-chevron-down menu-arrow"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="m6 9 6 6 6-6"/>
+
+        
+      </svg>
+    
+  
+
+  </label>
+  
+
+          
+  
+  <ul class="menu-list">
+    
+      <li class="menu-item">
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/badge.es/" data-name="badge.es" class="menu-link fs-6">
+    
+Badge<span class="badge">New</span></a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/badge/" data-name="badge" class="menu-link fs-6">
+    
+Badge<span class="badge">New</span></a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/deployment.es/" data-name="deployment.es" class="menu-link fs-6">
+    
+Deployment</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/deployment/" data-name="deployment" class="menu-link fs-6">
+    
+Deployment</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/edit/" data-name="edit" class="menu-link fs-6">
+    
+Edit</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/edit.es/" data-name="edit.es" class="menu-link fs-6">
+    
+Editar</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/icons.es/" data-name="icons.es" class="menu-link fs-6">
+    
+Iconos</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/icons/" data-name="icons" class="menu-link fs-6">
+    
+Icons</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/logo.es/" data-name="logo.es" class="menu-link fs-6">
+    
+Logo</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/logo/" data-name="logo" class="menu-link fs-6">
+    
+Logo</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/translations.es/" data-name="translations.es" class="menu-link fs-6">
+    
+Traducciones</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/options/translations/" data-name="translations" class="menu-link fs-6">
+    
+Translations</a>
+
+        
+      </li>
+    
+  </ul>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        <input class="menu-toggle" type="checkbox" id="menu-be10ffa55cddc891a4f4c1ed5a8fbc60">
+          
+
+          <label for="menu-be10ffa55cddc891a4f4c1ed5a8fbc60" class="menu-label">
+  
+  
+  <a href="http://localhost:1313/latest/shortcodes/" data-name="shortcodes" class="menu-link fs-6 has-icon">
+    
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-brackets-curly"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M15 4h3a2 2 0 012 2q0 5 3 6-3 1-3 6a2 2 0 01-2 2h-3M9 4H6a2 2 0 00-2 2q0 5-3 6 3 1 3 6a2 2 0 002 2h3"/>
+
+        
+      </svg>
+    
+  
+Shortcodes</a>
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-chevron-down menu-arrow"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="m6 9 6 6 6-6"/>
+
+        
+      </svg>
+    
+  
+
+  </label>
+  
+
+          
+  
+  <ul class="menu-list">
+    
+      <li class="menu-item">
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/hint.es/" data-name="hint.es" class="menu-link fs-6">
+    
+Avisos</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/buttons.es/" data-name="buttons.es" class="menu-link fs-6">
+    
+Botones</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/buttons/" data-name="buttons" class="menu-link fs-6">
+    
+Buttons</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/code/" data-name="code" class="menu-link fs-6">
+    
+Code</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/code.es/" data-name="code.es" class="menu-link fs-6">
+    
+Código</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/columns.es/" data-name="columns.es" class="menu-link fs-6">
+    
+Columnas</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/columns/" data-name="columns" class="menu-link fs-6">
+    
+Columns</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/pagelink.es/" data-name="pagelink.es" class="menu-link fs-6">
+    
+Enlace de página</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/hint/" data-name="hint" class="menu-link fs-6">
+    
+Hint</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/pagelink/" data-name="pagelink" class="menu-link fs-6">
+    
+Page Link</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/table.es/" data-name="table.es" class="menu-link fs-6">
+    
+Tablas</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/shortcodes/table/" data-name="table" class="menu-link fs-6">
+    
+Tables</a>
+
+        
+      </li>
+    
+  </ul>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        <input class="menu-toggle" type="checkbox" id="menu-aab5d4c506bb10ba3d3f284ce70adbba">
+          
+
+          <label for="menu-aab5d4c506bb10ba3d3f284ce70adbba" class="menu-label">
+  
+  
+  <a href="http://localhost:1313/latest/level-0/" data-name="level-0" class="menu-link fs-6 has-icon">
+    
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-align-left"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M17 18H3m10-6H3m18-6H3"/>
+
+        
+      </svg>
+    
+  
+Multiple Levels</a>
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-chevron-down menu-arrow"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="m6 9 6 6 6-6"/>
+
+        
+      </svg>
+    
+  
+
+  </label>
+  
+
+          
+  
+  <ul class="menu-list">
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/level-0/_index.es/" data-name="_index.es" class="menu-link fs-6 has-icon">
+    
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-align-left"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M17 18H3m10-6H3m18-6H3"/>
+
+        
+      </svg>
+    
+  
+Varios niveles</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        <input class="menu-toggle" type="checkbox" id="menu-ca5f05888e25d7c5289674b7009e7a50">
+          
+
+          <label for="menu-ca5f05888e25d7c5289674b7009e7a50" class="menu-label">
+  
+  
+  <a href="http://localhost:1313/latest/level-0/level-1/" data-name="level-1" class="menu-link fs-6">
+    
+Level 1</a>
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-chevron-down menu-arrow"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="m6 9 6 6 6-6"/>
+
+        
+      </svg>
+    
+  
+
+  </label>
+  
+
+          
+  
+  <ul class="menu-list">
+    
+      <li class="menu-item">
+        <input class="menu-toggle" type="checkbox" id="menu-16854cb182813b566b861a9b68bbc890">
+          
+
+          <label for="menu-16854cb182813b566b861a9b68bbc890" class="menu-label">
+  
+  
+  <a href="http://localhost:1313/latest/level-0/level-1/others/" data-name="others" class="menu-link fs-6">
+    
+Level 2</a>
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-chevron-down menu-arrow"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="m6 9 6 6 6-6"/>
+
+        
+      </svg>
+    
+  
+
+  </label>
+  
+
+          
+  
+  <ul class="menu-list">
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/level-0/level-1/others/others/" data-name="others" class="menu-link fs-6">
+    
+Others</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/level-0/level-1/others/others.es/" data-name="others.es" class="menu-link fs-6">
+    
+Otros</a>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/level-0/level-1/others/_index.es/" data-name="_index.es" class="menu-link fs-6">
+    
+Nivel 2</a>
+
+        
+      </li>
+    
+  </ul>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+          
+  
+  <a href="http://localhost:1313/latest/level-0/level-1/_index.es/" data-name="_index.es" class="menu-link fs-6">
+    
+Nivel 1</a>
+
+        
+      </li>
+    
+  </ul>
+
+        
+      </li>
+    
+  </ul>
+
+        
+      </li>
+    
+      <li class="menu-item">
+        
+      </li>
+    
+  </ul>
+
+    
+  </div>
+</div>
+
+
+
+
+        </aside>
+        <main class="main main-index"><article class="article fs-6" data-i18n='{&#34;copied&#34;:&#34;Copied!&#34;,&#34;copy&#34;:&#34;Copy&#34;}'>
+            <header class="article-header flex items-center">
+  <h1 class="article-title">Empezando</h1></header>
+<div class="article-body markdown"><p>¡Hola! Este es un ejemplo de tu nueva documentación. Realicé este proyecto para documentar fácilmente mis propios proyectos, pero pense que estaría genial compartirlo, asi te ahorrarás el tiempo que me tomó aprender todo lo que finalmente, resultó en esta documentación. ¡Ojala realices muchos trabajos!</p>
+<h2 id="características">
+  Características
+  <a class="anchor" aria-label="Anchor" href="#caracter%c3%adsticas">#</a>
+</h2>
+<ul>
+<li>Optimizado compatible con <a href="https://pagespeed.web.dev/report?url=https://hudocs.com" target="_blank" rel="nofollow noopener">Core Web Vitals</a></li>
+<li>Nivel de Seguridad A+ en <a href="https://observatory.mozilla.org/analyze/hudocs.com" target="_blank" rel="nofollow noopener">Mozilla Observatory</a></li>
+<li>Soporte para múltiples idiomas</li>
+<li>Sin dependencias</li>
+<li>Buscador avanzado automatizado</li>
+<li>Tema claro y oscuro</li>
+<li>Shortcodes para alertas, notas, tablas, etc.</li>
+<li>Bloques de código avanzados</li>
+<li>Alta personalización</li>
+</ul>
+<h2 id="requisitos">
+  Requisitos
+  <a class="anchor" aria-label="Anchor" href="#requisitos">#</a>
+</h2>
+<ul>
+<li>Hugo 0.164.0 o superior (versión extendida)</li>
+<li>Git - <a href="https://git-scm.com/downloads" target="_blank" rel="nofollow noopener">Instalar Git</a></li>
+<li>Ganas de documentar</li>
+</ul>
+<h2 id="instalar">
+  Instalar
+  <a class="anchor" aria-label="Anchor" href="#instalar">#</a>
+</h2>
+<p>Ve a la raíz de tu proyecto de Hugo y ejecuta el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/zkreations/docs themes/docs
+</span></span></code></pre></div><h2 id="estructura-recomendada">
+  Estructura recomendada
+  <a class="anchor" aria-label="Anchor" href="#estructura-recomendada">#</a>
+</h2>
+<p>Realicé esta documentación pensando en que podrías generar multiples versiones de un mismo proyecto, es por eso que la estructura recomendada debería contener primero un número de versión, por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>content
+</span></span><span style="display:flex;"><span>└── 1.0
+</span></span><span style="display:flex;"><span>    └── index.md
+</span></span></code></pre></div><p>Si quieres empezar rápidamente, utiliza el ejemplo que he dejado en la carpeta <strong>demo</strong>, la cual es la misma que estas leyendo justo ahora. Ejecuta el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp -R themes/docs/demo/content .
+</span></span></code></pre></div><h2 id="configurar">
+  Configurar
+  <a class="anchor" aria-label="Anchor" href="#configurar">#</a>
+</h2>
+<p>El tema contiene algunas opciones útiles que te pueden ayudar a personalizar aún mas tus documentos. Copia el archivo <strong>demo/config.toml</strong> y reemplazar la información con tus datos. Por ultimo inicia el servidor local ejecutando:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo serve
+</span></span></code></pre></div><h2 id="contribuciones">
+  Contribuciones
+  <a class="anchor" aria-label="Anchor" href="#contribuciones">#</a>
+</h2>
+<p>Las contribuciones son bienvenidas, sacaré tiempo para revisar cualquier solicitud siempre y cuando tengas en cuenta lo siguiente al realizarlas:</p>
+<ul>
+<li>No agregar más opciones que puedan incrementar la complejidad.</li>
+<li>Evitar JavasScript en lo posible si lo puedes realizar con CSS.</li>
+<li>No intervenir con las opciones personalizadas de los usuarios.</li>
+</ul>
+<h2 id="nota-final">
+  Nota final
+  <a class="anchor" aria-label="Anchor" href="#nota-final">#</a>
+</h2>
+<p>Si te gusta este proyecto, considera calificarme con una <a href="https://github.com/zkreations/docs/stargazers" target="_blank" rel="nofollow noopener">estrella en github</a>, no cuesta nada y para mi significa mucho. También puedes <a href="https://ko-fi.com/zkreations" target="_blank" rel="nofollow noopener">invitarme un café</a> para que pueda seguir creando cosas como esta.</p>
+<p>¡Empieza a documentar!</p>
+</div><nav class="pagination" aria-label='Pagination'>
+  <ul class="pagination-list grid">
+    
+    
+    <li class="pagination-item pagination-next">
+      <a class="pagelink items-center" href="/latest/starting/">
+        <span class="pagelink-content">
+          <span class="pagelink-meta fs-7">Next page</span>
+          <span class="pagelink-title fw-500">Starting</span>
+        </span>
+        <span class="pagelink-icon i-md">
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-arrow-right"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="m12 19 7-7-7-7m7 7H5"/>
+
+        
+      </svg>
+    
+  
+</span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+            <footer class="footer">
+  <div class="footer-wrapper">
+    <div class="footer-item">Edited: 0001-01-01</div>
+  </div>
+</footer>
+
+          </article>
+          <aside class="toc">
+            <div class="toc-content scrollable">
+  <div class="toc-title has-icon fs-6 fw-500">
+    
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-bars-sort"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M8 18H4m10-6H4m16-6H4"/>
+
+        
+      </svg>
+    
+  
+
+    Contents
+  </div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#características">Características</a></li>
+    <li><a href="#requisitos">Requisitos</a></li>
+    <li><a href="#instalar">Instalar</a></li>
+    <li><a href="#estructura-recomendada">Estructura recomendada</a></li>
+    <li><a href="#configurar">Configurar</a></li>
+    <li><a href="#contribuciones">Contribuciones</a></li>
+    <li><a href="#nota-final">Nota final</a></li>
+  </ul>
+</nav>
+</div>
+          </aside>
+        </main>
+      </div>
+      
+    </div>
+    <div class="search" id="search-box">
+  <div class="search-content scrollable" data-dialog>
+    <div class="search-form flex items-center ">
+      <label class="search-icon">
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-search"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+  
+
+  
+
+
+  <circle cx="10" cy="10" r="7"/>
+
+        
+          
+
+
+  
+
+
+  <path d="m21 21-6.05-6.05"/>
+
+        
+      </svg>
+    
+  
+</label>
+      <input class="search-input" id="search-input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder='Search in doc' maxlength="64"/>
+      <button data-close="" aria-label='Close' class="search-close">
+        
+
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+      <svg
+        class="i i-xmark"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        
+          
+
+
+  
+
+
+  <path d="M18 6 6 18M6 6l12 12"/>
+
+        
+      </svg>
+    
+  
+
+      </button>
+    </div>
+    <div class="search-results">
+      <div class="search-list" id="search-results"></div>
+    </div>
+    <div class="search-footer flex items-center justify-between">
+      <span class="search-keyboard">
+        <kbd>ESC</kbd>
+        to close
+      </span><span class="search-keyboard">Current version <code>latest</code></span></div>
+  </div>
+</div>
+
+  </body>
+</html>
