@@ -2,37 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/starting.es/</loc>
-  </url><url>
     <loc>http://localhost:1313/home/</loc>
   </url><url>
     <loc>http://localhost:1313/level-0/level-1/others/others/</loc>
   </url><url>
-    <loc>http://localhost:1313/level-0/level-1/others/others.es/</loc>
-  </url><url>
-    <loc>http://localhost:1313/options/_index.es/</loc>
-  </url><url>
     <loc>http://localhost:1313/options/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/_index.es/</loc>
   </url><url>
     <loc>http://localhost:1313/shortcodes/</loc>
   </url><url>
     <loc>http://localhost:1313/level-0/</loc>
   </url><url>
-    <loc>http://localhost:1313/level-0/_index.es/</loc>
-  </url><url>
-    <loc>http://localhost:1313/_index.es/</loc>
-  </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/shortcodes/hint.es/</loc>
-  </url><url>
-    <loc>http://localhost:1313/options/badge.es/</loc>
-  </url><url>
     <loc>http://localhost:1313/options/badge/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/buttons.es/</loc>
   </url><url>
     <loc>http://localhost:1313/shortcodes/buttons/</loc>
   </url><url>
@@ -40,25 +22,13 @@
   </url><url>
     <loc>http://localhost:1313/shortcodes/code/</loc>
   </url><url>
-    <loc>http://localhost:1313/shortcodes/code.es/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/columns.es/</loc>
-  </url><url>
     <loc>http://localhost:1313/shortcodes/columns/</loc>
-  </url><url>
-    <loc>http://localhost:1313/options/deployment.es/</loc>
   </url><url>
     <loc>http://localhost:1313/options/deployment/</loc>
   </url><url>
     <loc>http://localhost:1313/options/edit/</loc>
   </url><url>
-    <loc>http://localhost:1313/options/edit.es/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/pagelink.es/</loc>
-  </url><url>
     <loc>http://localhost:1313/shortcodes/hint/</loc>
-  </url><url>
-    <loc>http://localhost:1313/options/icons.es/</loc>
   </url><url>
     <loc>http://localhost:1313/options/icons/</loc>
   </url><url>
@@ -66,23 +36,13 @@
   </url><url>
     <loc>http://localhost:1313/level-0/level-1/others/</loc>
   </url><url>
-    <loc>http://localhost:1313/options/logo.es/</loc>
-  </url><url>
     <loc>http://localhost:1313/options/logo/</loc>
   </url><url>
-    <loc>http://localhost:1313/level-0/level-1/_index.es/</loc>
-  </url><url>
-    <loc>http://localhost:1313/level-0/level-1/others/_index.es/</loc>
-  </url><url>
     <loc>http://localhost:1313/shortcodes/pagelink/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/table.es/</loc>
   </url><url>
     <loc>http://localhost:1313/shortcodes/table/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/options/translations.es/</loc>
   </url><url>
     <loc>http://localhost:1313/options/translations/</loc>
   </url>

@@ -11,12 +11,5 @@
 		
 		
 			<atom:link href="http://localhost:1313/level-0/level-1/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Nivel 1</title>
-				<link>http://localhost:1313/level-0/level-1/_index.es/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/level-0/level-1/_index.es/</guid>
-				<description>&lt;p&gt;Estas en el nivel 1. Puedes anidar multiples niveles, No hay un límite real, sin embargo recomiendo proceder con cuidado, de todas formas, cualquier sugerencia para gestionar mejor esta característica, son bienvenidas.&lt;/p&gt;</description>
-			</item>
 	</channel>
 </rss>

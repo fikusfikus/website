@@ -18,19 +18,5 @@
 				<guid>http://localhost:1313/level-0/level-1/others/others/</guid>
 				<description>&lt;p&gt;You are in the last level. You can nest multiple levels. There is no real limit, but I recommend proceeding with caution. Any suggestions for better managing this feature are welcome.&lt;/p&gt;</description>
 			</item>
-			<item>
-				<title>Otros</title>
-				<link>http://localhost:1313/level-0/level-1/others/others.es/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/level-0/level-1/others/others.es/</guid>
-				<description>&lt;p&gt;Estas en el ultimo nivel. Puedes anidar multiples niveles, No hay un límite real, sin embargo recomiendo proceder con cuidado, de todas formas, cualquier sugerencia para gestionar mejor esta característica, son bienvenidas.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Nivel 2</title>
-				<link>http://localhost:1313/level-0/level-1/others/_index.es/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/level-0/level-1/others/_index.es/</guid>
-				<description>&lt;p&gt;Estas en el nivel 2. Puedes anidar multiples niveles, No hay un límite real, sin embargo recomiendo proceder con cuidado, de todas formas, cualquier sugerencia para gestionar mejor esta característica, son bienvenidas.&lt;/p&gt;</description>
-			</item>
 	</channel>
 </rss>
