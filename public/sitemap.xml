@@ -4,11 +4,11 @@
   <url>
     <loc>http://localhost:1313/starting.es/</loc>
   </url><url>
+    <loc>http://localhost:1313/home/</loc>
+  </url><url>
     <loc>http://localhost:1313/level-0/level-1/others/others/</loc>
   </url><url>
     <loc>http://localhost:1313/level-0/level-1/others/others.es/</loc>
-  </url><url>
-    <loc>http://localhost:1313/starting/</loc>
   </url><url>
     <loc>http://localhost:1313/options/_index.es/</loc>
   </url><url>

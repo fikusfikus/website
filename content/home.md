@@ -1,5 +1,5 @@
 ---
-title: Starting
+title: home
 icon: coffee
 weight: 1
 ---
