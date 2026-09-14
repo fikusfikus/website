@@ -1,11 +1,11 @@
 <div class="aside-tree scrollable">
+<h1 class="site-title">{{ .Site.Title }}</h1>
   <div class="aside-menu fw-500">
     {{- with .Site.Home -}}
       {{ template "tree-list" (dict "Section" . "CurrentPage" $) }}
     {{ end }}
   </div>
 </div>
-
 {{ define "tree-list" }}
   {{ $currentNode := .CurrentPage }}
   <ul class="menu-list">
