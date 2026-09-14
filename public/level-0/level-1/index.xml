@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Level 1 on jonny&#39;s website</title>
-		<link>http://localhost:44839/level-0/level-1/</link>
+		<link>http://localhost:39329/level-0/level-1/</link>
 		<description>Recent content in Level 1 on jonny&#39;s website</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="http://localhost:44839/level-0/level-1/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:39329/level-0/level-1/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

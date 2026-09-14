@@ -2,40 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:44839/home/</loc>
+    <loc>http://localhost:1313/home/</loc>
   </url><url>
-    <loc>http://localhost:44839/level-0/level-1/others/others/</loc>
+    <loc>http://localhost:1313/audio/lawnwater/</loc>
   </url><url>
-    <loc>http://localhost:44839/reading/</loc>
+    <loc>http://localhost:1313/reading/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:44839/shortcodes/</loc>
+    <loc>http://localhost:1313/audio/dulcimer/</loc>
   </url><url>
-    <loc>http://localhost:44839/level-0/</loc>
+    <loc>http://localhost:1313/audio/</loc>
   </url><url>
-    <loc>http://localhost:44839/</loc>
+    <loc>http://localhost:1313/video/</loc>
   </url><url>
-    <loc>http://localhost:44839/reading/2025/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:44839/reading/2026/</loc>
+    <loc>http://localhost:1313/reading/2026/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:44839/shortcodes/buttons/</loc>
+    <loc>http://localhost:1313/reading/2025/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:44839/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:44839/shortcodes/code/</loc>
-  </url><url>
-    <loc>http://localhost:44839/shortcodes/columns/</loc>
-  </url><url>
-    <loc>http://localhost:44839/shortcodes/hint/</loc>
-  </url><url>
-    <loc>http://localhost:44839/level-0/level-1/</loc>
-  </url><url>
-    <loc>http://localhost:44839/level-0/level-1/others/</loc>
-  </url><url>
-    <loc>http://localhost:44839/shortcodes/pagelink/</loc>
-  </url><url>
-    <loc>http://localhost:44839/shortcodes/table/</loc>
-  </url><url>
-    <loc>http://localhost:44839/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

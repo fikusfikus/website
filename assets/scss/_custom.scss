@@ -1,12 +1,15 @@
 // You can add your own custom SCSS here.
 
 :root {
-  --bg-main: #e8accf;
+  --bg-main: #fff;
   --header-height: 0px;
-  --color-title: #ffffff;
+  --color-title: #000;
   --color-text: #000;
   --color-link: #2d28bf;
   --primary: #2d28bf;
+  --aside-width: 300px;
+  --color-border: #000;
+  --color-border-inset: #000;
 }
 .site-title {
   font-size: 1.5rem;
@@ -14,5 +17,23 @@
   margin-bottom: 3rem;
 }
 .menu-item svg {
-  color: #fff
+  color: #000
+}
+
+.aside {
+  background-color: #ffcce6;
+  padding-left: 2rem;
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+.header {
+  display: none;
+}
+.main {
+  border-left: 3px solid var(--color-border);
 }

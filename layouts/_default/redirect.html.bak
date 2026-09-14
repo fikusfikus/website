@@ -1,0 +1,16 @@
+{{ $redirect := (strings.TrimPrefix "/" .Page.Params.redirect) }}
+{{ $redirectUrl := ref . $redirect }}
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Redirecting...</title>
+    <meta name="robots" content="noindex">
+    <link rel="canonical" href="{{ $redirectUrl }}">
+    <meta http-equiv="refresh" content="0; url={{ $redirectUrl }}">
+    <style>
+      html, body { background-color: #222222; margin: 0; }
+    </style>
+  </head>
+</html>

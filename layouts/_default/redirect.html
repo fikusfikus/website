@@ -1,5 +1,12 @@
-{{ $redirect := (strings.TrimPrefix "/" .Page.Params.redirect) }}
-{{ $redirectUrl := ref . $redirect }}
+{{ $redirectUrl := "" }}
+{{ if .Page.Params.redirect }}
+  {{ $redirect := (strings.TrimPrefix "/" .Page.Params.redirect) }}
+  {{ $redirectUrl = ref . $redirect }}
+{{ else if .Page.Params.redirect_latest }}
+  {{ with (sort .Page.Pages "Date" "desc") }}
+    {{ $redirectUrl = (index . 0).RelPermalink }}
+  {{ end }}
+{{ end }}
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}">
   <head>
