@@ -5,8 +5,8 @@
   --header-height: 0px;
   --color-title: #000;
   --color-text: #000;
-  --color-link: #2d28bf;
-  --primary: #2d28bf;
+  --color-link: #7C8BAB;
+  --primary: #7C8BAB;
   --aside-width: 300px;
   --color-border: #000;
   --color-border-inset: #000;
@@ -36,4 +36,8 @@
 }
 .main {
   border-left: 3px solid var(--color-border);
+}
+
+.toc-content nav a.is-visible {
+  box-shadow: none;
 }

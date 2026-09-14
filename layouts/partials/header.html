@@ -1,5 +1,6 @@
-{{- with .Section -}}
-  <button class="header-toggle" data-outside="docs-sidebar" aria-label="toggle navigation">
-    {{ partial "svg" (dict "icon" "bars") }}
-  </button>
-{{- end -}}
+<button class="header-toggle" data-outside="docs-sidebar" aria-label="toggle navigation">
+  {{ partial "svg" (dict "icon" "bars") }}
+</button>
+<a class="toc-toggle" href="#doc" aria-label='{{ i18n "table_of_contents_toogle" }}'>
+  {{ partial "svg" (dict "icon" "bars-sort") }}
+</a>

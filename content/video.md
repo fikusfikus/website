@@ -1,6 +1,5 @@
 ---
 title: video
-icon: play
 weight: 4
 ---
 

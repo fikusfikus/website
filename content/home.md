@@ -1,6 +1,5 @@
 ---
 title: home
-icon: home
 weight: 1
 ---
 

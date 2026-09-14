@@ -4,3 +4,6 @@ title = "jonny's website"
 
 theme = 'hudocs'
 titleCaseStyle = 'none'
+
+[params]
+showPagination = false
