@@ -2,48 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/home/</loc>
+    <loc>http://localhost:46527/home/</loc>
   </url><url>
-    <loc>http://localhost:1313/level-0/level-1/others/others/</loc>
+    <loc>http://localhost:46527/level-0/level-1/others/others/</loc>
   </url><url>
-    <loc>http://localhost:1313/options/</loc>
+    <loc>http://localhost:46527/reading/</loc>
   </url><url>
-    <loc>http://localhost:1313/shortcodes/</loc>
+    <loc>http://localhost:46527/shortcodes/</loc>
   </url><url>
-    <loc>http://localhost:1313/level-0/</loc>
+    <loc>http://localhost:46527/level-0/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:46527/</loc>
   </url><url>
-    <loc>http://localhost:1313/options/badge/</loc>
+    <loc>http://localhost:46527/reading/2025/</loc>
   </url><url>
-    <loc>http://localhost:1313/shortcodes/buttons/</loc>
+    <loc>http://localhost:46527/reading/2026/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:46527/shortcodes/buttons/</loc>
   </url><url>
-    <loc>http://localhost:1313/shortcodes/code/</loc>
+    <loc>http://localhost:46527/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/shortcodes/columns/</loc>
+    <loc>http://localhost:46527/shortcodes/code/</loc>
   </url><url>
-    <loc>http://localhost:1313/options/deployment/</loc>
+    <loc>http://localhost:46527/shortcodes/columns/</loc>
   </url><url>
-    <loc>http://localhost:1313/options/edit/</loc>
+    <loc>http://localhost:46527/shortcodes/hint/</loc>
   </url><url>
-    <loc>http://localhost:1313/shortcodes/hint/</loc>
+    <loc>http://localhost:46527/level-0/level-1/</loc>
   </url><url>
-    <loc>http://localhost:1313/options/icons/</loc>
+    <loc>http://localhost:46527/level-0/level-1/others/</loc>
   </url><url>
-    <loc>http://localhost:1313/level-0/level-1/</loc>
+    <loc>http://localhost:46527/shortcodes/pagelink/</loc>
   </url><url>
-    <loc>http://localhost:1313/level-0/level-1/others/</loc>
+    <loc>http://localhost:46527/shortcodes/table/</loc>
   </url><url>
-    <loc>http://localhost:1313/options/logo/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/pagelink/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/table/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/options/translations/</loc>
+    <loc>http://localhost:46527/tags/</loc>
   </url>
 </urlset>

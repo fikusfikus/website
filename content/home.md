@@ -1,6 +1,6 @@
 ---
 title: home
-icon: coffee
+icon: home
 weight: 1
 ---
 

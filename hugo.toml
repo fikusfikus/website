@@ -3,3 +3,4 @@ locale = 'en-us'
 title = "jonny's website"
 
 theme = 'hudocs'
+titleCaseStyle = 'none'
