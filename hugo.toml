@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = "jonny's website"
+title = "jonny's site"
 
 theme = 'hudocs'
 titleCaseStyle = 'none'

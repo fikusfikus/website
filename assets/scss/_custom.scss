@@ -15,6 +15,7 @@
   font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 3rem;
+  font-weight: bold;
 }
 .menu-item svg {
   color: #000
@@ -25,9 +26,23 @@
   max-width: none;
 }
 
+.doc {
+  grid-template-columns: 20% minmax(0, 1fr);
+}
+
+@media (min-width: /* whatever pixel value breakpoint(l) resolves to */) {
+  .doc {
+    grid-template-columns: 20% minmax(0, 1fr);
+  }
+}
+
 .aside {
   background-color: #ffcce6;
   padding-left: 2rem;
+
+    &-menu {
+      padding-right: 1.5rem;
+    }
 }
 
 a {
@@ -40,6 +55,11 @@ a {
 .main {
   border-left: 3px solid var(--color-border);
 }
+
+.main-index {
+  grid-template-columns: minmax(0, 1fr) 25%;
+}
+
 
 .toc {
   position: relative;
@@ -64,4 +84,17 @@ a {
 
 .toc-content nav a.is-visible {
   box-shadow: 0px 0 0 0 var(--color-border) inset;
+}
+
+.article {
+  &-title {
+    font-size: 1.5rem;
+  }
+} 
+
+.markdown h1 {
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
 }
