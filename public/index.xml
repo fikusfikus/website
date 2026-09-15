@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -42,200 +42,277 @@
 				<description>&lt;p&gt;Hello! This is a markup example of your new documentation. I made this project to easily document my own projects, but I thought it would be great to share it, so you will save the time it took me to learn everything that finally, resulted in this documentation. I hope you do a lot of work!&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;&#xA;  Features&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#features&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Optimized compatible with &lt;a href=&#34;https://pagespeed.web.dev/report?url=https://hudocs.com&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Core Web Vitals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Security level A+ in &lt;a href=&#34;https://observatory.mozilla.org/analyze/hudocs.com&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Mozilla Observatory&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Support for multiple languages&lt;/li&gt;&#xA;&lt;li&gt;No dependencies&lt;/li&gt;&#xA;&lt;li&gt;Automated advanced search engine&lt;/li&gt;&#xA;&lt;li&gt;Light and dark theme&lt;/li&gt;&#xA;&lt;li&gt;Shortcodes for alerts, notes, tables, etc.&lt;/li&gt;&#xA;&lt;li&gt;Advanced code blocks&lt;/li&gt;&#xA;&lt;li&gt;Fully customizable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;&#xA;  Requirements&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#requirements&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo 0.164.0 or higher (extended version)&lt;/li&gt;&#xA;&lt;li&gt;Git - &lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Install Git&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Desire to document&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;&#xA;  Install&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#install&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Go to the root of your Hugo project and run the following command:&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/hour-of-the-star/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/hour-of-the-star/</guid>
+				<title>Mrs Dalloway</title>
+				<link>http://localhost:1313/reading/2026/woolf_dalloway/</link>
+				<pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/woolf_dalloway/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Little Magnets</title>
+				<link>http://localhost:1313/reading/2026/quinn_magnets/</link>
+				<pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/quinn_magnets/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Cathedral</title>
+				<link>http://localhost:1313/reading/2026/carver_cathedral/</link>
+				<pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/carver_cathedral/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Outline</title>
+				<link>http://localhost:1313/reading/2026/cusk_outline/</link>
+				<pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/cusk_outline/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bad Behavior</title>
+				<link>http://localhost:1313/reading/2026/gaitskill_behavior/</link>
+				<pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/gaitskill_behavior/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Bluest Eye</title>
+				<link>http://localhost:1313/reading/2026/morrison_bluest/</link>
+				<pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/morrison_bluest/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Lolita</title>
+				<link>http://localhost:1313/reading/2026/nabokov_lolita/</link>
+				<pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/nabokov_lolita/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My Ántonia</title>
+				<link>http://localhost:1313/reading/2026/cather_antonia/</link>
+				<pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/cather_antonia/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Red Pony</title>
+				<link>http://localhost:1313/reading/2026/steinbeck_pony/</link>
+				<pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/steinbeck_pony/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wuthering Heights</title>
+				<link>http://localhost:1313/reading/2026/bronte_wuthering/</link>
+				<pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/bronte_wuthering/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Prime of Miss Jean Brodie</title>
+				<link>http://localhost:1313/reading/2026/spark_prime/</link>
+				<pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/spark_prime/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Martyr!</title>
+				<link>http://localhost:1313/reading/2026/akbar_martyr/</link>
+				<pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/akbar_martyr/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Never Let Me Go</title>
+				<link>http://localhost:1313/reading/2026/ishiguro_never/</link>
+				<pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/ishiguro_never/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Where Angels Fear to Tread</title>
+				<link>http://localhost:1313/reading/2025/forster_angels/</link>
+				<pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/forster_angels/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>To Live</title>
+				<link>http://localhost:1313/reading/2025/hua_live/</link>
+				<pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/hua_live/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Notes from Underground</title>
+				<link>http://localhost:1313/reading/2025/dostoevsky_notes/</link>
+				<pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/dostoevsky_notes/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>All Fours</title>
+				<link>http://localhost:1313/reading/2025/july_fours/</link>
+				<pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/july_fours/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>To The Lighthouse</title>
+				<link>http://localhost:1313/reading/2025/woolf_lighthouse/</link>
+				<pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/woolf_lighthouse/</guid>
 				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test10/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test10/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test11/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test11/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test12/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test12/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test13/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test13/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test14/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test14/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test15/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test15/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test3/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test3/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test4/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test4/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test5/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test5/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test6/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test6/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test7/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test7/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test8/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test8/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test9/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test9/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/hour-of-the-star/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/hour-of-the-star/</guid>
+				<link>http://localhost:1313/reading/2025/lispector_hour/</link>
+				<pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/lispector_hour/</guid>
 				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test10/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test10/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title>My Year of Rest and Relaxation</title>
+				<link>http://localhost:1313/reading/2025/moshfegh_year/</link>
+				<pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/moshfegh_year/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test11/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test11/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/barnes_sense/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/barnes_sense/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test12/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test12/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/carver_love/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/carver_love/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test13/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test13/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/carver_quiet/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/carver_quiet/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test14/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test14/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/cash_lambs/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/cash_lambs/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test15/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test15/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/cooper_sluts/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/cooper_sluts/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test3/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test3/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/gass_blue/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/gass_blue/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test4/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test4/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/hooks_love/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/hooks_love/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test5/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test5/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/johnson_jesus/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/johnson_jesus/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test6/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test6/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/kang_human/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/kang_human/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test7/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test7/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/levy_first/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/levy_first/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test8/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test8/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/lispector_passion/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/lispector_passion/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2026/test9/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/test9/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/mcinerney_city/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/mcinerney_city/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/plath_ariel/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/plath_ariel/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/plath_bell/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/plath_bell/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/proust_swann/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/proust_swann/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/salten_bambi/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/salten_bambi/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/steinbeck_grapes/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/steinbeck_grapes/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/template/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/template/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/reading/2026/turgenev_love/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/turgenev_love/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

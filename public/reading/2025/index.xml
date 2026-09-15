@@ -10,106 +10,57 @@
 		
 		
 		
-			<lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/reading/2025/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/hour-of-the-star/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/hour-of-the-star/</guid>
+				<title>Where Angels Fear to Tread</title>
+				<link>http://localhost:1313/reading/2025/forster_angels/</link>
+				<pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/forster_angels/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>To Live</title>
+				<link>http://localhost:1313/reading/2025/hua_live/</link>
+				<pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/hua_live/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Notes from Underground</title>
+				<link>http://localhost:1313/reading/2025/dostoevsky_notes/</link>
+				<pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/dostoevsky_notes/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>All Fours</title>
+				<link>http://localhost:1313/reading/2025/july_fours/</link>
+				<pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/july_fours/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>To The Lighthouse</title>
+				<link>http://localhost:1313/reading/2025/woolf_lighthouse/</link>
+				<pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/woolf_lighthouse/</guid>
 				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test10/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test10/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<link>http://localhost:1313/reading/2025/lispector_hour/</link>
+				<pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/lispector_hour/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test11/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test11/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test12/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test12/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test13/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test13/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test14/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test14/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test15/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test15/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test3/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test3/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test4/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test4/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test5/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test5/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test6/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test6/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test7/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test7/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test8/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test8/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>The Hour of the Star</title>
-				<link>http://localhost:1313/reading/2025/test9/</link>
-				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/test9/</guid>
-				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+				<title>My Year of Rest and Relaxation</title>
+				<link>http://localhost:1313/reading/2025/moshfegh_year/</link>
+				<pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/moshfegh_year/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
