@@ -2,7 +2,7 @@
 title: "Lost Lambs"
 author: "Madeline Cash"
 year: 2026
-cover: "/images/books/cash_lamb.jpg"
+cover: "/images/books/cash_lambs.jpg"
 date: 2026-05-02
 hidden: true
 ---

@@ -21,6 +21,15 @@
   color: #000
 }
 
+.menu-link.is-active {
+  color: var(--primary);
+}
+
+.menu-link.is-active::before {
+  background-color: var(--primary);
+}
+
+
 .container {
   padding-left: 0px;
   max-width: none;
