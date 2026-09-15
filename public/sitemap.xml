@@ -2,12 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/reading/2026/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/home/</loc>
   </url><url>
     <loc>http://localhost:1313/audio/lawnwater/</loc>
   </url><url>
     <loc>http://localhost:1313/reading/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/audio/dulcimer/</loc>
   </url><url>
@@ -16,10 +19,52 @@
     <loc>http://localhost:1313/video/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/reading/2026/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/reading/2026/hour-of-the-star/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test10/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test11/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test12/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test13/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test14/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test15/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test3/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test4/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test5/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test6/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test7/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test8/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/test9/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/hail-mary/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reading/2025/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>

@@ -1,0 +1,46 @@
+{{ define "main" }}
+<div class="doc container" id="doc">
+  <aside class="aside" id="docs-sidebar">
+    {{ partial "sidebar" . }}
+  </aside>
+  <main class="main main-index">
+    <article class="article article-body fs-6">
+	<div class="reading-intro">
+      <h1 class="article-title">{{ .Params.pageHeading | default .Title }}</h1>
+      <div class="markdown">
+        {{ .Content }}
+      </div>
+      </div>
+      {{ $books := sort .Pages "Date" "desc" }}
+
+        {{ range $books }}
+        <section class="book-entry">
+        {{ with .Params.cover }}<img src="{{ . }}" class="book-cover" alt="{{ $.Title }} cover">{{ end }}
+        <h2 class="book-title" id="{{ .File.ContentBaseName }}">{{ .Title }}</h2>
+        <p class="book-author">{{ .Params.author }}</p>
+        {{ with .Params.year }}<p class="book-year">{{ . }}</p>{{ end }}
+        <div class="book-review markdown">
+        {{ .Content }}
+        </div>
+        </section>
+        {{ end }}
+
+    </article>
+    <aside class="toc">
+      <div class="toc-content scrollable">
+        <div class="toc-title has-icon fs-6 fw-500">
+          {{ partial "svg" (dict "icon" "bars-sort") }}
+          books
+        </div>
+        <nav>
+          <ul>
+            {{ range $books }}
+              <li><a href="#{{ .File.ContentBaseName }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+        </nav>
+      </div>
+    </aside>
+  </main>
+</div>
+{{ end }}

@@ -11,27 +11,30 @@
   <ul class="menu-list">
     {{ range (where .Section.Pages "Params.hidden" "ne" true) }}
       <li class="menu-item{{if or (eq $currentNode .Page) (.IsAncestor $currentNode )}} is-parent{{end}}">
-        {{ if .IsSection }}
-        
+
+        {{ $hasVisibleChildren := gt (len (where .Pages "Params.hidden" "ne" true)) 0 }}
+        {{ if and .IsSection $hasVisibleChildren }}
+
           {{- if .Page.IsSection -}}
             <input class="menu-toggle" type="checkbox" id="menu-{{ md5 .Page }}"{{if or (eq $currentNode .Page) (.IsAncestor $currentNode )}} checked=""{{ end }}>
           {{ end }}
 
-          {{ template "tree-link" (dict "Page" . "CurrentPage" $.CurrentPage ) }}
+          {{ template "tree-link" (dict "Page" . "CurrentPage" $.CurrentPage "IsExpandable" true) }}
           {{ template "tree-list" (dict "Section" . "CurrentPage" $.CurrentPage ) }}
-        {{ else if and .IsPage .Content }}
-          {{ template "tree-link" (dict "Page" . "CurrentPage" $.CurrentPage ) }}
+        {{ else }}
+          {{ template "tree-link" (dict "Page" . "CurrentPage" $.CurrentPage "IsExpandable" false) }}
         {{ end }}
+
       </li>
     {{ end }}
   </ul>
 {{ end }}
 
 {{ define "tree-link" }}
-  {{- if .Page.IsSection -}}
+  {{- if .IsExpandable -}}
     <label for="menu-{{ md5 .Page }}" class="menu-label">
   {{ end }}
-  
+
   <a href="{{ .Page.Permalink }}" data-name="{{ .Page.File.ContentBaseName }}" class="menu-link fs-6{{ if (eq .CurrentPage .Page) }} is-active{{ end }}{{ with .Page.Params.icon }} has-icon{{ end }}">
     {{ partial "svg" (dict "icon" .Page.Params.icon ) }}
     {{- partial "title" .Page -}}
@@ -44,11 +47,11 @@
     {{- end -}}
   </a>
 
-  {{- with .Page.IsSection -}}
+  {{- if .IsExpandable -}}
     {{ partial "svg" (dict "icon" "chevron-down" "class" "menu-arrow" ) }}
   {{ end }}
 
-  {{- if .Page.IsSection -}}
+  {{- if .IsExpandable -}}
     </label>
   {{ end }}
 {{ end }}

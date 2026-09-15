@@ -1,5 +1,0 @@
-{{- with .Section -}}
-  <button class="header-toggle" data-outside="docs-sidebar" aria-label="toggle navigation">
-    {{ partial "svg" (dict "icon" "bars") }}
-  </button>
-{{- end -}}

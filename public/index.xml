@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -18,7 +18,7 @@
 				<link>http://localhost:1313/home/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/home/</guid>
-				<description>&lt;p&gt;Hello! This is a markup example of your new documentation. I made this project to easily document my own projects, but I thought it would be great to share it, so you will save the time it took me to learn everything that finally, resulted in this documentation. I hope you do a lot of work!&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;&#xA;  Features&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#features&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Optimized compatible with &lt;a href=&#34;https://pagespeed.web.dev/report?url=https://hudocs.com&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Core Web Vitals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Security level A+ in &lt;a href=&#34;https://observatory.mozilla.org/analyze/hudocs.com&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Mozilla Observatory&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Support for multiple languages&lt;/li&gt;&#xA;&lt;li&gt;No dependencies&lt;/li&gt;&#xA;&lt;li&gt;Automated advanced search engine&lt;/li&gt;&#xA;&lt;li&gt;Light and dark theme&lt;/li&gt;&#xA;&lt;li&gt;Shortcodes for alerts, notes, tables, etc.&lt;/li&gt;&#xA;&lt;li&gt;Advanced code blocks&lt;/li&gt;&#xA;&lt;li&gt;Fully customizable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;&#xA;  Requirements&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#requirements&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo 0.164.0 or higher (extended version)&lt;/li&gt;&#xA;&lt;li&gt;Git - &lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Install Git&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Desire to document&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;&#xA;  Install&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#install&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Go to the root of your Hugo project and run the following command:&lt;/p&gt;</description>
+				<description>&lt;p&gt;This is my stupid fuckin website.  Buncha bullshit boutta go here&#xA;&lt;strong&gt;This&lt;/strong&gt; is my stupid fuckin website.  Buncha bullshit boutta go here&#xA;This is my stupid fuckin website.  Buncha bullshit boutta go here&#xA;This is my stupid fuckin website.  Buncha bullshit boutta go here&#xA;This is my stupid fuckin website.  Buncha bullshit boutta go here&lt;/p&gt;&#xA;&lt;h2 id=&#34;some-shit&#34;&gt;&#xA;  SOme shit&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#some-shit&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Prolly some more bullshit boutta go here.  Maybe this will be like a blog idk&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>lawn water</title>
@@ -42,18 +42,200 @@
 				<description>&lt;p&gt;Hello! This is a markup example of your new documentation. I made this project to easily document my own projects, but I thought it would be great to share it, so you will save the time it took me to learn everything that finally, resulted in this documentation. I hope you do a lot of work!&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;&#xA;  Features&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#features&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Optimized compatible with &lt;a href=&#34;https://pagespeed.web.dev/report?url=https://hudocs.com&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Core Web Vitals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Security level A+ in &lt;a href=&#34;https://observatory.mozilla.org/analyze/hudocs.com&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Mozilla Observatory&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Support for multiple languages&lt;/li&gt;&#xA;&lt;li&gt;No dependencies&lt;/li&gt;&#xA;&lt;li&gt;Automated advanced search engine&lt;/li&gt;&#xA;&lt;li&gt;Light and dark theme&lt;/li&gt;&#xA;&lt;li&gt;Shortcodes for alerts, notes, tables, etc.&lt;/li&gt;&#xA;&lt;li&gt;Advanced code blocks&lt;/li&gt;&#xA;&lt;li&gt;Fully customizable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;&#xA;  Requirements&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#requirements&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo 0.164.0 or higher (extended version)&lt;/li&gt;&#xA;&lt;li&gt;Git - &lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Install Git&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Desire to document&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;&#xA;  Install&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#install&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Go to the root of your Hugo project and run the following command:&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>2026</title>
-				<link>http://localhost:1313/reading/2026/</link>
-				<pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2026/</guid>
-				<description>&lt;p&gt;If you want your readers to be able to edit a page of your document on GitHub, you can enable the edit button in the header that contains the title.&lt;/p&gt;&#xA;&lt;h2 id=&#34;parameters&#34;&gt;&#xA;  Parameters&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#parameters&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;To activate the edit button, you need to add the following custom parameter to your goHugo configuration file. It should contain the exact path to the &amp;ldquo;content&amp;rdquo; folder:&lt;/p&gt;&#xA;&lt;div class=&#34;code&#34;&gt;&#xA;    &lt;div class=&#34;codetabs&#34;&gt;&lt;input id=&#34;tab-edcfba&#34; type=&#34;radio&#34; name=&#34;db54c8a8ccedcbdff54c4da16efc428c&#34; checked=&#34;checked&#34;&gt;&#xA;        &lt;label for=&#34;tab-edcfba&#34;&gt;TOML&lt;/label&gt;&#xA;        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;github_repo_edit&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://github.com/zkreations/hudocs/tree/main/exampleSite/content&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;input id=&#34;tab-dafcbe&#34; type=&#34;radio&#34; name=&#34;db54c8a8ccedcbdff54c4da16efc428c&#34;&gt;&#xA;        &lt;label for=&#34;tab-dafcbe&#34;&gt;YAML&lt;/label&gt;&#xA;        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;github_repo_edit&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://github.com/zkreations/hudocs/tree/main/exampleSite/content&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;input id=&#34;tab-afcdbe&#34; type=&#34;radio&#34; name=&#34;db54c8a8ccedcbdff54c4da16efc428c&#34;&gt;&#xA;        &lt;label for=&#34;tab-afcdbe&#34;&gt;JSON&lt;/label&gt;&#xA;        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;params&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;github_repo_edit&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://github.com/zkreations/hudocs/tree/main/exampleSite/content&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/hour-of-the-star/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/hour-of-the-star/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>2025</title>
-				<link>http://localhost:1313/reading/2025/</link>
-				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/reading/2025/</guid>
-				<description>&lt;p&gt;If you want your readers to be able to edit a page of your document on GitHub, you can enable the edit button in the header that contains the title.&lt;/p&gt;&#xA;&lt;h2 id=&#34;parameters&#34;&gt;&#xA;  Parameters&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#parameters&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;To activate the edit button, you need to add the following custom parameter to your goHugo configuration file. It should contain the exact path to the &amp;ldquo;content&amp;rdquo; folder:&lt;/p&gt;&#xA;&lt;div class=&#34;code&#34;&gt;&#xA;    &lt;div class=&#34;codetabs&#34;&gt;&lt;input id=&#34;tab-acdbef&#34; type=&#34;radio&#34; name=&#34;c8a5ceafd424d18cd8f54bfc64cbcdec&#34; checked=&#34;checked&#34;&gt;&#xA;        &lt;label for=&#34;tab-acdbef&#34;&gt;TOML&lt;/label&gt;&#xA;        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;github_repo_edit&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://github.com/zkreations/hudocs/tree/main/exampleSite/content&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;input id=&#34;tab-abecfd&#34; type=&#34;radio&#34; name=&#34;c8a5ceafd424d18cd8f54bfc64cbcdec&#34;&gt;&#xA;        &lt;label for=&#34;tab-abecfd&#34;&gt;YAML&lt;/label&gt;&#xA;        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;github_repo_edit&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://github.com/zkreations/hudocs/tree/main/exampleSite/content&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;input id=&#34;tab-badfec&#34; type=&#34;radio&#34; name=&#34;c8a5ceafd424d18cd8f54bfc64cbcdec&#34;&gt;&#xA;        &lt;label for=&#34;tab-badfec&#34;&gt;JSON&lt;/label&gt;&#xA;        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;params&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;github_repo_edit&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://github.com/zkreations/hudocs/tree/main/exampleSite/content&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test10/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test10/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test11/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test11/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test12/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test12/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test13/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test13/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test14/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test14/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test15/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test15/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test3/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test3/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test4/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test4/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test5/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test5/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test6/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test6/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test7/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test7/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test8/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test8/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2025/test9/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2025/test9/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/hour-of-the-star/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/hour-of-the-star/</guid>
+				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test10/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test10/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test11/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test11/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test12/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test12/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test13/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test13/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test14/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test14/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test15/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test15/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test3/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test3/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test4/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test4/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test5/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test5/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test6/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test6/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test7/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test7/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test8/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test8/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Hour of the Star</title>
+				<link>http://localhost:1313/reading/2026/test9/</link>
+				<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/2026/test9/</guid>
+				<description>&lt;p&gt;this book was definitely a book&lt;/p&gt;&#xA;&lt;p&gt;second line&lt;/p&gt;&#xA;&lt;p&gt;third line&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
