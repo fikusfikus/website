@@ -1,6 +1,6 @@
 ---
-title: "Ray Carver"
-author: "Will You Please Be Quiet, Please?"
+title: "Will You Please Be Quiet, Please?"
+author: "Raymond Carver"
 year: 1976
 cover: "/images/books/carver_quiet.jpg"
 date: 2026-04-01

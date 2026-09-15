@@ -1,6 +1,6 @@
 ---
 title: "Cathedral"
-author: "Ray Carver"
+author: "Raymond Carver"
 year: 1983
 cover: "/images/books/carver_cathedral.jpg"
 date: 2026-02-23
