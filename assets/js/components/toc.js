@@ -13,8 +13,10 @@ function isVisible (elem) {
 }
 
 let currentlyVisible = new Set()
+let isAtBottom = false
 
 function updateActiveLink () {
+  if (isAtBottom) return
   if (currentlyVisible.size === 0) return
 
   const sorted = Array.from(currentlyVisible).sort((a, b) => a.offsetTop - b.offsetTop)
@@ -26,15 +28,7 @@ function updateActiveLink () {
   if (tocLink) {
     tocLinks.forEach((link) => link.classList.remove(VISIBLE_CLASS))
     tocLink.classList.add(VISIBLE_CLASS)
-
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
-    const scrollBottom = scrollTop + window.innerHeight
-    const pageHeight = document.documentElement.scrollHeight
-    const atBottom = scrollBottom >= pageHeight
-
-    if (!atBottom) {
-      tocLink.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
-    }
+    tocLink.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
   }
 }
 
@@ -68,11 +62,11 @@ function initToc () {
     const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
     const scrollBottom = scrollTop + window.innerHeight
     const pageHeight = document.documentElement.scrollHeight
-    const atBottom = scrollBottom >= pageHeight
+    isAtBottom = scrollBottom >= pageHeight
 
     if (scrollTop <= 0 && tocContent) {
       tocContent.scrollTop = 0
-    } else if (atBottom) {
+    } else if (isAtBottom) {
       if (tocContent) tocContent.scrollTop = tocContent.scrollHeight
       const lastSection = sections[sections.length - 1]
       const lastLink = TOC.querySelector(`a[href="#${lastSection.getAttribute('id')}"]`)
