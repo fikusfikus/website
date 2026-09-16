@@ -150,6 +150,43 @@ a {
   margin: 1.5rem auto;
 }
 
+.entry-divider {
+  border-bottom: 3px solid var(--color-border);
+}
+
+// home entries / aggregate of all
+
+.home-entry {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.home-entry-title {
+  border-top: none;
+  padding-top: 0;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+}
+
+.home-entry-tag {
+  font-size: 1rem;
+  color: var(--color-title);
+  white-space: nowrap;
+}
+
+.home-entry-date {
+  color: var(--color-meta);
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
 // reading list / book entries
 
 .reading-intro {
@@ -166,7 +203,7 @@ a {
   display: flow-root;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 3px solid var(--color-border);
+//  border-bottom: 3px solid var(--color-border);
   position: relative;
 }
 
@@ -217,7 +254,7 @@ a {
   position: relative;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 3px solid var(--color-border);
+//  border-bottom: 3px solid var(--color-border);
 }
 
 .blog-title {

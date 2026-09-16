@@ -15,7 +15,7 @@
     <loc>http://localhost:1313/audio/dulcimer/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/audio/</loc>
   </url><url>
@@ -35,11 +35,17 @@
     <loc>http://localhost:1313/reading/2026/plath_ariel/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/2026/post1/</loc>
+    <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/reading/2026/proust_swann/</loc>
     <lastmod>2026-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reading/2026/kang_human/</loc>
     <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2026/post2/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reading/2026/hooks_love/</loc>
     <lastmod>2026-07-01T00:00:00+00:00</lastmod>
@@ -109,12 +115,6 @@
   </url><url>
     <loc>http://localhost:1313/reading/2026/bronte_wuthering/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2026/post2/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2026/post1/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2026/post10/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>

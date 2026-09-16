@@ -10,22 +10,22 @@
 		
 		
 		
-			<lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 10 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/blog/2026/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>ncmpcpp</title>
-				<link>http://localhost:1313/blog/2026/post2/</link>
-				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/2026/post2/</guid>
-				<description>&lt;p&gt;this is a test blog post about ncmpcpp&lt;/p&gt;&#xA;&lt;p&gt;what happens when i separate things by two lines&lt;/p&gt;&#xA;&lt;p&gt;what happens when I try an image&#xA;&lt;a href=&#34;http://localhost:1313/images/blog/ncmpcpp.png&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/blog/ncmpcpp.png&#34; alt=&#34;caption&#34;&gt;&lt;/a&gt;&#xA;some text after the image&#xA;separated text by one line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>test blog post</title>
+				<title>test blog post #1</title>
 				<link>http://localhost:1313/blog/2026/post1/</link>
-				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/blog/2026/post1/</guid>
 				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ncmpcpp</title>
+				<link>http://localhost:1313/blog/2026/post2/</link>
+				<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post2/</guid>
+				<description>&lt;p&gt;this is a test blog post about ncmpcpp&lt;/p&gt;&#xA;&lt;p&gt;what happens when i separate things by two lines&lt;/p&gt;&#xA;&lt;p&gt;what happens when I try an image&#xA;&lt;a href=&#34;http://localhost:1313/images/blog/ncmpcpp.png&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/blog/ncmpcpp.png&#34; alt=&#34;caption&#34;&gt;&lt;/a&gt;&#xA;some text after the image&#xA;separated text by one line&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>test blog post</title>

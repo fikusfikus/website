@@ -1,5 +1,7 @@
 ---
 title: home
+pageHeading: "home"
+layout: home-list
 weight: 1
 ---
-test markdown
+A short intro paragraph if you want one.

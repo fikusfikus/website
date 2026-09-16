@@ -1,6 +1,6 @@
 ---
-title: "test blog post"
-date: 2026-01-10
+title: "test blog post #1"
+date: 2026-08-10
 hidden: true
 ---
 this is a test blog post

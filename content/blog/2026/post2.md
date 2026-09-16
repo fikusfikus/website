@@ -1,6 +1,6 @@
 ---
 title: "ncmpcpp"
-date: 2026-01-10
+date: 2026-07-10
 hidden: true
 ---
 this is a test blog post about ncmpcpp

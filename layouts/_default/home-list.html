@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="doc container" id="doc">
+  <aside class="aside" id="docs-sidebar">
+    {{ partial "sidebar" . }}
+  </aside>
+  <main class="main main-index">
+    <article class="article article-body fs-6">
+      <div class="reading-intro">
+        <h1 class="article-title">{{ .Params.pageHeading | default .Title }}</h1>
+        <div class="markdown">
+          {{ .Content }}
+        </div>
+      </div>
+
+      {{ $entries := where .Site.RegularPages "Section" "in" (slice "reading" "blog") }}
+      {{ $entries = sort $entries "Date" "desc" }}
+      {{ range $entries }}
+        <section class="home-entry entry-divider">
+          <div class="home-entry-header">
+            <h2 class="home-entry-title">{{ .Title }}</h2>
+            <a class="home-entry-tag" href="{{ .Parent.RelPermalink }}#{{ .File.ContentBaseName }}">#{{ .Section }}</a>
+          </div>
+          <p class="home-entry-date">{{ .Date.Format "2006-01-02" }}</p>
+        </section>
+      {{ end }}
+    </article>
+    <aside class="toc">
+      <div class="toc-content scrollable"></div>
+    </aside>
+  </main>
+</div>
+{{ end }}
