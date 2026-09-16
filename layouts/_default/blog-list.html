@@ -5,30 +5,33 @@
   </aside>
   <main class="main main-index">
     <article class="article article-body fs-6">
-      {{ $books := sort .Pages "Date" "desc" }}
+      <div class="reading-intro">
+        <h1 class="article-title">{{ .Params.pageHeading | default .Title }}</h1>
+        <div class="markdown">
+          {{ .Content }}
+        </div>
+      </div>
 
-	{{ range $books }}
-  	<section class="book-entry">
-    	{{ with .Params.cover }}<img src="{{ . }}" class="book-cover" alt="{{ $.Title }} cover">{{ end }}
-    	<h2 class="book-title" id="{{ .File.ContentBaseName }}">{{ .Title }}</h2>
-    	<p class="book-author">{{ .Params.author }}</p>
-    	{{ with .Params.year }}<p class="book-year">{{ . }}</p>{{ end }}
-    	<div class="book-review markdown">
-      	{{ .Content }}
-    	</div>
-  	</section>
-	{{ end }}
-
+      {{ $posts := sort .Pages "Date" "desc" }}
+      {{ range $posts }}
+        <section class="blog-entry">
+          <h2 class="blog-title" id="{{ .File.ContentBaseName }}">{{ .Title }}</h2>
+          <p class="blog-date">{{ .Date.Format "2006-01-02" }}</p>
+          <div class="blog-body markdown">
+            {{ .Content }}
+          </div>
+        </section>
+      {{ end }}
     </article>
     <aside class="toc">
       <div class="toc-content scrollable">
         <div class="toc-title has-icon fs-6 fw-500">
           {{ partial "svg" (dict "icon" "bars-sort") }}
-          {{ i18n "contents" }}
+          Posts
         </div>
         <nav>
           <ul>
-            {{ range $books }}
+            {{ range $posts }}
               <li><a href="#{{ .File.ContentBaseName }}">{{ .Title }}</a></li>
             {{ end }}
           </ul>

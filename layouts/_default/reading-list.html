@@ -15,22 +15,25 @@
 
         {{ range $books }}
         <section class="book-entry">
-        {{ with .Params.cover }}<img src="{{ . }}" class="book-cover" alt="{{ $.Title }} cover">{{ end }}
-        <h2 class="book-title" id="{{ .File.ContentBaseName }}">{{ .Title }}</h2>
-        <p class="book-author">{{ .Params.author }}</p>
+        {{ with .Params.cover }}
+		<a href="{{ . }}" target="_blank" rel="noopener">
+		<img src="{{ . }}" class="book-cover" alt="{{ $.Title }} cover">
+		</a>
+		{{ end }}
+        	<h2 class="book-title" id="{{ .File.ContentBaseName }}">{{ .Title }}</h2>
+        	<p class="book-author">{{ .Params.author }}</p>
         {{ with .Params.year }}<p class="book-year">{{ . }}</p>{{ end }}
-	<p class="book-date">{{ .Date.Format "2006-01-02" }}</p>
-        <div class="book-review markdown">
+		<p class="book-date">{{ .Date.Format "2006-01-02" }}</p>
+        	<div class="book-review markdown">
         {{ .Content }}
-        </div>
-        </section>
+        	</div>
+        	</section>
         {{ end }}
 
     </article>
     <aside class="toc">
       <div class="toc-content scrollable">
         <div class="toc-title has-icon fs-6 fw-500">
-          {{ partial "svg" (dict "icon" "bars-sort") }}
           books
         </div>
         <nav>

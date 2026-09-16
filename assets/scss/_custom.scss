@@ -84,6 +84,10 @@ a {
   }
 }
 
+.toc-title {
+  text-decoration: underline;
+}
+
 .toc-content {
   box-shadow: 3px 0 0 0 var(--color-border) inset;
   height: 100%;
@@ -107,6 +111,12 @@ a {
   }
 } 
 
+// markdown
+
+.markdown {
+  --space-block: 1rem;
+}
+
 .markdown h1 {
 }
 
@@ -114,9 +124,33 @@ a {
   font-size: 1.5rem;
 }
 
+.markdown img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 0rem;
+  margin: 1.5rem auto;
+}
 
+.markdown a:has(> img) {
+  display: table;
+  margin: 0 auto;
+}
 
-// stuff for the reading list / book entries
+.markdown iframe[title="YouTube video"] {
+  border-radius: 0rem;
+}
+
+.markdown div:has(> iframe[title="YouTube video"]) {
+  position: relative !important;
+  padding-bottom: 0 !important;
+  height: auto !important;
+  aspect-ratio: 16 / 9;
+  max-width: 500px;
+  width: 100%;
+  margin: 1.5rem auto;
+}
+
+// reading list / book entries
 
 .reading-intro {
   margin-bottom: 2rem;
@@ -150,7 +184,7 @@ a {
   width: 150px;
   margin-right: 1.25rem;
   margin-bottom: 0.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   box-shadow: var(--shadow-md);
 }
 
@@ -174,4 +208,31 @@ a {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100% 1px;
+}
+
+
+// blog list / blog entries
+
+.blog-entry {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid var(--color-border);
+}
+
+.blog-title {
+  border-top: none;
+  padding-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.blog-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--color-meta);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
 }

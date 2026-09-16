@@ -35,13 +35,6 @@
 				<description>&lt;p&gt;The logo can be composed of text, an icon from the &lt;a href=&#34;https://meteoricons.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Meteor Icons&lt;/a&gt; package along with text, or an image. Keep in mind that if you use an image, it is recommended to use the appropriate size or utilize the SVG format.&lt;/p&gt;&#xA;&lt;h2 id=&#34;parameters&#34;&gt;&#xA;  Parameters&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#parameters&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In this case, you have two custom parameters available. If you want an icon alongside the text, define &lt;code&gt;logo_icon&lt;/code&gt; with the name of the icon you can obtain from &lt;a href=&#34;https://meteoricons.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Meteor Icons&lt;/a&gt;. If you want an image, define &lt;code&gt;logo_img&lt;/code&gt;. If you don&amp;rsquo;t define either of them, only the text will be displayed.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>video</title>
-				<link>http://localhost:1313/video/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/video/</guid>
-				<description>&lt;p&gt;Hello! This is a markup example of your new documentation. I made this project to easily document my own projects, but I thought it would be great to share it, so you will save the time it took me to learn everything that finally, resulted in this documentation. I hope you do a lot of work!&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;&#xA;  Features&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#features&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Optimized compatible with &lt;a href=&#34;https://pagespeed.web.dev/report?url=https://hudocs.com&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Core Web Vitals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Security level A+ in &lt;a href=&#34;https://observatory.mozilla.org/analyze/hudocs.com&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Mozilla Observatory&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Support for multiple languages&lt;/li&gt;&#xA;&lt;li&gt;No dependencies&lt;/li&gt;&#xA;&lt;li&gt;Automated advanced search engine&lt;/li&gt;&#xA;&lt;li&gt;Light and dark theme&lt;/li&gt;&#xA;&lt;li&gt;Shortcodes for alerts, notes, tables, etc.&lt;/li&gt;&#xA;&lt;li&gt;Advanced code blocks&lt;/li&gt;&#xA;&lt;li&gt;Fully customizable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;&#xA;  Requirements&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#requirements&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo 0.164.0 or higher (extended version)&lt;/li&gt;&#xA;&lt;li&gt;Git - &lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Install Git&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Desire to document&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;&#xA;  Install&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#install&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Go to the root of your Hugo project and run the following command:&lt;/p&gt;</description>
-			</item>
-			<item>
 				<title>The Sluts</title>
 				<link>http://localhost:1313/reading/2026/cooper_sluts/</link>
 				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
@@ -236,6 +229,111 @@
 				<pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/reading/2026/bronte_wuthering/</guid>
 				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ncmpcpp</title>
+				<link>http://localhost:1313/blog/2026/post2/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post2/</guid>
+				<description>&lt;p&gt;this is a test blog post about ncmpcpp&lt;/p&gt;&#xA;&lt;p&gt;what happens when i separate things by two lines&lt;/p&gt;&#xA;&lt;p&gt;what happens when I try an image&#xA;&lt;a href=&#34;http://localhost:1313/images/blog/ncmpcpp.png&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/blog/ncmpcpp.png&#34; alt=&#34;caption&#34;&gt;&lt;/a&gt;&#xA;some text after the image&#xA;separated text by one line&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post1/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post1/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post10/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post10/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post11/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post11/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post12/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post12/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post13/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post13/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post14/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post14/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post15/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post15/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post4/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post4/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post5/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post5/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post6/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post6/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post7/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post7/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post8/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post8/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>test blog post</title>
+				<link>http://localhost:1313/blog/2026/post9/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post9/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>youtube videos</title>
+				<link>http://localhost:1313/blog/2026/post3/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post3/</guid>
+				<description>&lt;p&gt;this is a test blog post about youtuve videos&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/sBKFRA9SNaA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;</description>
 			</item>
 			<item>
 				<title>The Prime of Miss Jean Brodie</title>
