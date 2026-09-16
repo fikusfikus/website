@@ -19,6 +19,8 @@
   </url><url>
     <loc>http://localhost:1313/audio/</loc>
   </url><url>
+    <loc>http://localhost:1313/video/</loc>
+  </url><url>
     <loc>http://localhost:1313/links/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
