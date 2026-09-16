@@ -7,7 +7,7 @@
     <loc>http://localhost:1313/audio/lawnwater/</loc>
   </url><url>
     <loc>http://localhost:1313/reading/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/audio/dulcimer/</loc>
   </url><url>
@@ -16,7 +16,61 @@
     <loc>http://localhost:1313/video/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/cooper_sluts/</loc>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/johnson_jesus/</loc>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/plath_ariel/</loc>
+    <lastmod>2026-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/proust_swann/</loc>
+    <lastmod>2026-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/kang_human/</loc>
+    <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/hooks_love/</loc>
+    <lastmod>2026-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/salten_bambi/</loc>
+    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/lispector_passion/</loc>
+    <lastmod>2026-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/carver_love/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/mcinerney_city/</loc>
+    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/cash_lambs/</loc>
+    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/barnes_sense/</loc>
+    <lastmod>2026-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/plath_bell/</loc>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/carver_quiet/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/levy_first/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/turgenev_love/</loc>
+    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/gass_blue/</loc>
+    <lastmod>2026-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/2026/steinbeck_grapes/</loc>
+    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reading/2026/woolf_dalloway/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
@@ -80,63 +134,6 @@
   </url><url>
     <loc>http://localhost:1313/reading/2025/moshfegh_year/</loc>
     <lastmod>2025-12-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/barnes_sense/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/carver_love/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/carver_quiet/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/cash_lambs/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/cooper_sluts/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/gass_blue/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/hooks_love/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/johnson_jesus/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/kang_human/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/levy_first/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/lispector_passion/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/mcinerney_city/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/plath_ariel/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/plath_bell/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/proust_swann/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/salten_bambi/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/steinbeck_grapes/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/template/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/reading/2026/turgenev_love/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reading/2025/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>

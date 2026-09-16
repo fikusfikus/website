@@ -19,6 +19,7 @@
         <h2 class="book-title" id="{{ .File.ContentBaseName }}">{{ .Title }}</h2>
         <p class="book-author">{{ .Params.author }}</p>
         {{ with .Params.year }}<p class="book-year">{{ . }}</p>{{ end }}
+	<p class="book-date">{{ .Date.Format "2006-01-02" }}</p>
         <div class="book-review markdown">
         {{ .Content }}
         </div>
