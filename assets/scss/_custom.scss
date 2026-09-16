@@ -32,6 +32,7 @@
 
 .container {
   padding-left: 0px;
+  padding-right: 0;
   max-width: none;
 }
 
@@ -47,10 +48,15 @@
 
 .aside {
   background-color: #ffcce6;
-  padding-left: 4rem;
+  padding-left: 2rem;
     &-menu {
       padding-right: 1.5rem;
     }
+}
+
+.aside-tree {
+  // use this for the sidebar title's padding-top
+  padding-top: 2rem;
 }
 
 a {
@@ -78,7 +84,7 @@ a {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 100vw;
+    right: 0;
     background-color: #ffcce6;
     z-index: -1;
   }
@@ -114,7 +120,7 @@ a {
 // markdown
 
 .markdown {
-  --space-block: 1rem;
+  --space-block: .25rem;
 }
 
 .markdown h1 {
@@ -154,11 +160,32 @@ a {
   border-bottom: 3px solid var(--color-border);
 }
 
+.page-intro {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid var(--color-border);
+  margin-top: 0px;
+}
+
+.article-header {
+  margin-top: -16px;
+}
+
+.page-intro .article-title {
+  margin-bottom: 1rem;
+}
+
 // home entries / aggregate of all
 
 .home-entry {
+  position: relative;
   padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
+  padding-right: 8rem;
+}
+
+.home-entry.entry-divider {
+  border-bottom-width: 1px;
 }
 
 .home-entry-header {
@@ -171,33 +198,45 @@ a {
 .home-entry-title {
   border-top: none;
   padding-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.25rem;
   font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.home-entry-author {
+  font-weight: 400;
+}
+
+
+.home-entry-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--color-meta);
+  font-size: 0.875rem;
 }
 
 .home-entry-tag {
   font-size: 1rem;
   color: var(--color-title);
   white-space: nowrap;
+  text-decoration: underline dotted;
 }
 
-.home-entry-date {
-  color: var(--color-meta);
-  font-size: 0.875rem;
-  margin-top: 0.25rem;
+.home-entry-tag[href^="/reading/"] {
+//  color: #7C8BAB;
+//  text-decoration: underline #7c8bab;
 }
+
+.home-entry-tag[href^="/blog/"] {
+//  color: #b87c8b;
+//  text-decoration: underline #b87c8b;
+}
+
 
 // reading list / book entries
 
-.reading-intro {
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 3px solid var(--color-border);
-}
 
-.reading-intro .article-title {
-  margin-bottom: 1rem;
-}
 
 .book-entry {
   display: flow-root;
@@ -277,16 +316,13 @@ a {
 // toc custom content (links page)
 
 .toc-custom-content {
-  padding: 1.5rem;
+  padding: 3rem 1rem;
   text-align: center;
 }
 
 .toc-custom-image {
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-.toc-custom-text {
-  color: var(--color-meta);
-  font-size: 0.875rem;
+  width: 200px;
+  max-width: 100%;
+  margin: 0 auto 1rem auto;
+  display: block;
 }

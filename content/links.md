@@ -7,8 +7,12 @@ weight: 6
 
 Some links to websites made by friends
 
-[Perfectly Acceptable Press](https://www.perfectly-acceptable.com/) - risograph printing, the best to ever do it
+[perfectly acceptable press](https://www.perfectly-acceptable.com/)
 
-[margot.maison](https://margot.maison/) - big inspo for me wanting to make a site / amazing art
+[margot.maison](https://margot.maison/)
 
-[samsketchbook](https://samsketchbook.tumblr.com/) - amazing art
+[samsketchbook](https://samsketchbook.tumblr.com/)
+
+[binkle's dutchy](https://binklesduchy.neocities.org/)
+
+[hilary lawson art](https://www.arymim.com/)

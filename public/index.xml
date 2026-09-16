@@ -18,7 +18,7 @@
 				<link>http://localhost:1313/home/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/home/</guid>
-				<description>&lt;p&gt;This is my stupid fuckin website.  Buncha bullshit boutta go here&#xA;&lt;strong&gt;This&lt;/strong&gt; is my stupid fuckin website.  Buncha bullshit boutta go here&#xA;This is my stupid fuckin website.  Buncha bullshit boutta go here&#xA;This is my stupid fuckin website.  Buncha bullshit boutta go here&#xA;This is my stupid fuckin website.  Buncha bullshit boutta go here&lt;/p&gt;&#xA;&lt;h2 id=&#34;some-shit&#34;&gt;&#xA;  SOme shit&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#some-shit&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Prolly some more bullshit boutta go here.  Maybe this will be like a blog idk&lt;/p&gt;</description>
+				<description>&lt;p&gt;A short intro paragraph if you want one.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>lawn water</title>
@@ -35,11 +35,18 @@
 				<description>&lt;p&gt;The logo can be composed of text, an icon from the &lt;a href=&#34;https://meteoricons.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Meteor Icons&lt;/a&gt; package along with text, or an image. Keep in mind that if you use an image, it is recommended to use the appropriate size or utilize the SVG format.&lt;/p&gt;&#xA;&lt;h2 id=&#34;parameters&#34;&gt;&#xA;  Parameters&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#parameters&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In this case, you have two custom parameters available. If you want an icon alongside the text, define &lt;code&gt;logo_icon&lt;/code&gt; with the name of the icon you can obtain from &lt;a href=&#34;https://meteoricons.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Meteor Icons&lt;/a&gt;. If you want an image, define &lt;code&gt;logo_img&lt;/code&gt;. If you don&amp;rsquo;t define either of them, only the text will be displayed.&lt;/p&gt;</description>
 			</item>
 			<item>
+				<title>video</title>
+				<link>http://localhost:1313/video/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/video/</guid>
+				<description>&lt;p&gt;Test markdown&lt;/p&gt;&#xA;&lt;p&gt;this page has no layout or redirect&lt;/p&gt;</description>
+			</item>
+			<item>
 				<title>links</title>
 				<link>http://localhost:1313/links/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/links/</guid>
-				<description>&lt;p&gt;Some links to websites made by friends&lt;/p&gt;</description>
+				<description>&lt;p&gt;Some links to websites made by friends&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.perfectly-acceptable.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Perfectly Acceptable Press&lt;/a&gt; - risograph printing, the best to ever do it&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://margot.maison/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;margot.maison&lt;/a&gt; - big inspo for me wanting to make a site / amazing art&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://samsketchbook.tumblr.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;samsketchbook&lt;/a&gt; - amazing art&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The Sluts</title>
@@ -63,6 +70,13 @@
 				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
 			</item>
 			<item>
+				<title>test blog post #1</title>
+				<link>http://localhost:1313/blog/2026/post1/</link>
+				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post1/</guid>
+				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
+			</item>
+			<item>
 				<title>In Search of Lost Time: Swann&#39;s Way</title>
 				<link>http://localhost:1313/reading/2026/proust_swann/</link>
 				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
@@ -75,6 +89,13 @@
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/reading/2026/kang_human/</guid>
 				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ncmpcpp</title>
+				<link>http://localhost:1313/blog/2026/post2/</link>
+				<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/post2/</guid>
+				<description>&lt;p&gt;this is a test blog post about ncmpcpp&lt;/p&gt;&#xA;&lt;p&gt;what happens when i separate things by two lines&lt;/p&gt;&#xA;&lt;p&gt;what happens when I try an image&#xA;&lt;a href=&#34;http://localhost:1313/images/blog/ncmpcpp.png&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/blog/ncmpcpp.png&#34; alt=&#34;caption&#34;&gt;&lt;/a&gt;&#xA;some text after the image&#xA;separated text by one line&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>All About Love: Visions</title>
@@ -236,20 +257,6 @@
 				<pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/reading/2026/bronte_wuthering/</guid>
 				<description>&lt;p&gt;This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.  This book was definitely a book.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>ncmpcpp</title>
-				<link>http://localhost:1313/blog/2026/post2/</link>
-				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/2026/post2/</guid>
-				<description>&lt;p&gt;this is a test blog post about ncmpcpp&lt;/p&gt;&#xA;&lt;p&gt;what happens when i separate things by two lines&lt;/p&gt;&#xA;&lt;p&gt;what happens when I try an image&#xA;&lt;a href=&#34;http://localhost:1313/images/blog/ncmpcpp.png&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/blog/ncmpcpp.png&#34; alt=&#34;caption&#34;&gt;&lt;/a&gt;&#xA;some text after the image&#xA;separated text by one line&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>test blog post</title>
-				<link>http://localhost:1313/blog/2026/post1/</link>
-				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/2026/post1/</guid>
-				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>test blog post</title>
