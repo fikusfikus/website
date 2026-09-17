@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -18,7 +18,7 @@
 				<link>http://localhost:1313/home/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/home/</guid>
-				<description>&lt;p&gt;A short intro paragraph if you want one.&lt;/p&gt;</description>
+				<description>&lt;p&gt;Welcome to my site :)&lt;/p&gt;&#xA;&lt;p&gt;This home page is an aggregate of everything posted across the site, click the path to see more&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>lawn water</title>
@@ -46,7 +46,14 @@
 				<link>http://localhost:1313/links/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/links/</guid>
-				<description>&lt;p&gt;Some links to websites made by friends&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.perfectly-acceptable.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Perfectly Acceptable Press&lt;/a&gt; - risograph printing, the best to ever do it&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://margot.maison/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;margot.maison&lt;/a&gt; - big inspo for me wanting to make a site / amazing art&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://samsketchbook.tumblr.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;samsketchbook&lt;/a&gt; - amazing art&lt;/p&gt;</description>
+				<description>&lt;p&gt;Some links to websites made by friends&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.perfectly-acceptable.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;perfectly acceptable press&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://margot.maison/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;margot.maison&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://samsketchbook.tumblr.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;samsketchbook&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://binklesduchy.neocities.org/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;binkle&amp;rsquo;s dutchy&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.arymim.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;hilary lawson art&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>.tmux configuration</title>
+				<link>http://localhost:1313/blog/2026/09-16_tmux/</link>
+				<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026/09-16_tmux/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;m pretty much making this post just to have some test content for the blog section of my site lol.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s pretty rare that I have to reconfigure tmux since I usually just hang onto the same dot files forever, but it is always kind of a pain in the ass so I may as well log it here for future reference.  I&amp;rsquo;ve been planning on making a new website with the static site generator &amp;ldquo;Hugo&amp;rdquo; for a bit now.  I&amp;rsquo;ve been maining a hackintosh since ~2018 and for the past few years I&amp;rsquo;ve just been letting it fall apart.  I knew hackintosh was gonna die some day and since I generally refuse to update my OS ever if possible, I couldn&amp;rsquo;t update the &amp;ldquo;command line tools&amp;rdquo; to install Hugo without updating the whole damn OS.  I decided to say fuck it and just install Linux and Windows on some dual boot type shit.  So now after about a week copying multiple TBs of data from APFS &amp;gt; ExFat &amp;gt; NTFS and configuring Debian-stable (I will avoid updating my shit at all costs), I&amp;rsquo;ve finally got Hugo going.  I use vim as my main text editor because I want to pretend I know what I&amp;rsquo;m doing, so this means getting tmux to stay organized while I mess with Hugo.  To avoid putting my NVME drive with hackintosh installed back into my PC to fetch my old tmux config, I decided to just make a new one.  My last tmux config I made in probably 2014 was likely a mess of other people&amp;rsquo;s configs spliced together.  I&amp;rsquo;m starting fresh and haven&amp;rsquo;t made a tmux config in a while, so why not.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The Sluts</title>
@@ -341,13 +348,6 @@
 				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/blog/2026/post9/</guid>
 				<description>&lt;p&gt;this is a test blog post&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>youtube videos</title>
-				<link>http://localhost:1313/blog/2026/post3/</link>
-				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/2026/post3/</guid>
-				<description>&lt;p&gt;this is a test blog post about youtuve videos&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/sBKFRA9SNaA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;</description>
 			</item>
 			<item>
 				<title>The Prime of Miss Jean Brodie</title>

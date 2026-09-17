@@ -4,7 +4,7 @@
     {{ partial "sidebar" . }}
   </aside>
   <main class="main main-index">
-    <article class="article article-body fs-6">
+	  <article class="article article-body fs-6" data-i18n='{{ (dict "copy" (i18n "copy") "copied" (i18n "copied")) | jsonify }}'>
 	<div class="page-intro">
       <h1 class="article-title">{{ .Params.pageHeading | default .Title }}</h1>
       <div class="markdown">

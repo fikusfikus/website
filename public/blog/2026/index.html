@@ -29,10 +29,10 @@
 ">
     <link rel="preload" href="/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/scss/main.min.b87addaccaaeb501c8157f3591cbbafc6c5a65f0f15385c9769b271e14ff9778.css" integrity="sha256-uHrdrMqutQHIFX81kcu6/GxaZfDxU4XJdpsnHhT/l3g=">
+<link rel="stylesheet" href="/scss/main.min.beee80d8e43fb23323a7c52f34975c73bde1527332448979e1fa18d0b5386117.css" integrity="sha256-vu6A2OQ/sjMjp8UvNJdcc73hUnMyRIl54foY0LU4YRc=">
 
     <script src="/js/bundle.min.dec4e1bf6df65947f89a6db57192e401dd5629a392145cd82e8eea185cc88fb2.js" integrity="sha256-3sThv232WUf4mm21cZLkAd1WKaOSFFzYLo7qGFzIj7I=" defer></script><script src="/flexsearch.bundle.min_13841517052725719104.min.8fc13a72a59d679bb7bf765a24e59b4b60d2f09d52839a9c1020461ad2adcd9f.js" integrity="sha256-j8E6cqWdZ5u3v3ZaJOWbS2DS8J1Sg5qcECBGGtKtzZ8=" defer></script>
-  <script src="/js/en.search.min.38ee1c91ee7cd574aec90e90b53f16ae8cb2d4c62ee8be6e37a31e3209217903.js" integrity="sha256-OO4cke581XSuyQ6QtT8Wroyy1MYu6L5uN6MeMgkheQM=" defer></script>
+  <script src="/js/en.search.min.ba22fb5542764fcd7f7ae172ba3a624a5851a5ddc9f4f07ac3d1e457e88dfd3b.js" integrity="sha256-uiL7VUJ2T81/euFyujpiSlhRpd3J9PB6w9HkV&#43;iN/Ts=" defer></script>
   </head>
   <body class="fs-7 fw-400">
     <div class="template flex column">
@@ -434,10 +434,9 @@ links</a>
 
 
 
-
   </aside>
   <main class="main main-index">
-    <article class="article article-body fs-6">
+	<article class="article article-body fs-6" data-i18n='{&#34;copied&#34;:&#34;Copied!&#34;,&#34;copy&#34;:&#34;Copy&#34;}'>
       <div class="page-intro">
         <h1 class="article-title">blog/2026</h1>
         <div class="markdown">
@@ -449,7 +448,81 @@ links</a>
       
       
         <section class="blog-entry">
-          <h2 class="blog-title" id="post3">youtube videos</h2>
+          <h2 class="blog-title" id="09-16_tmux">.tmux configuration</h2>
+          <p class="blog-date">2026-09-16</p>
+          <div class="blog-body markdown">
+            <p>I&rsquo;m pretty much making this post just to have some test content for the blog section of my site lol.</p>
+<p>It&rsquo;s pretty rare that I have to reconfigure tmux since I usually just hang onto the same dot files forever, but it is always kind of a pain in the ass so I may as well log it here for future reference.  I&rsquo;ve been planning on making a new website with the static site generator &ldquo;Hugo&rdquo; for a bit now.  I&rsquo;ve been maining a hackintosh since ~2018 and for the past few years I&rsquo;ve just been letting it fall apart.  I knew hackintosh was gonna die some day and since I generally refuse to update my OS ever if possible, I couldn&rsquo;t update the &ldquo;command line tools&rdquo; to install Hugo without updating the whole damn OS.  I decided to say fuck it and just install Linux and Windows on some dual boot type shit.  So now after about a week copying multiple TBs of data from APFS &gt; ExFat &gt; NTFS and configuring Debian-stable (I will avoid updating my shit at all costs), I&rsquo;ve finally got Hugo going.  I use vim as my main text editor because I want to pretend I know what I&rsquo;m doing, so this means getting tmux to stay organized while I mess with Hugo.  To avoid putting my NVME drive with hackintosh installed back into my PC to fetch my old tmux config, I decided to just make a new one.  My last tmux config I made in probably 2014 was likely a mess of other people&rsquo;s configs spliced together.  I&rsquo;m starting fresh and haven&rsquo;t made a tmux config in a while, so why not.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># remap prefix</span>
+</span></span><span style="display:flex;"><span>unbind C-b
+</span></span><span style="display:flex;"><span>set-option -g prefix C-a
+</span></span><span style="display:flex;"><span>bind-key C-a send-prefix
+</span></span></code></pre></div><p>This just gives you the classic &ldquo;screen&rdquo; prefix, control+a.  I don&rsquo;t know who likes reaching for <code>control+b</code> everytime but it&rsquo;s not me.  I always kind of figured they just picked it alphabetically after screen took <code>a</code>.  Fun, but useless to me.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># bind r to reload config</span>
+</span></span><span style="display:flex;"><span>bind r source-file ~/.tmux.conf <span style="color:#ae81ff">\;</span> display <span style="color:#e6db74">&#34;config reloaded&#34;</span>
+</span></span></code></pre></div><p>A big part of my efforts here is just to get the theme looking decent.  <code>Control+a - r</code> is a much better way to quickly test changes vs typing <code>tmux source-file ~/.tmux.conf</code> every time.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># allow graphics passthrough to kitty</span>
+</span></span><span style="display:flex;"><span>set -g allow-passthrough on
+</span></span></code></pre></div><p>Took me a while to figure this one out when trying to get my mpd album art script working.</p>
+<p>Here&rsquo;s all the other non-theme bullshit:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># remap the rename session bind</span>
+</span></span><span style="display:flex;"><span>unbind $
+</span></span><span style="display:flex;"><span>bind s command-prompt -I <span style="color:#e6db74">&#34;#S&#34;</span> <span style="color:#e6db74">&#34;rename-session &#39;%%&#39;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dont ask for confirmation when killing a pane</span>
+</span></span><span style="display:flex;"><span>unbind x
+</span></span><span style="display:flex;"><span>bind x kill-pane
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># make windows start with 1 instead of 0</span>
+</span></span><span style="display:flex;"><span>set -g base-index <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>setw -g pane-base-index <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># renumber windows when closing one - ABCD, delete C, = ABC</span>
+</span></span><span style="display:flex;"><span>set -g renumber-windows on
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># new windows take the current path instead of home</span>
+</span></span><span style="display:flex;"><span>bind c new-window -c <span style="color:#e6db74">&#34;#{pane_current_path}&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># self explanatory stuff</span>
+</span></span><span style="display:flex;"><span>set -g mouse on
+</span></span><span style="display:flex;"><span>set-option -g history-limit <span style="color:#ae81ff">5000</span>
+</span></span><span style="display:flex;"><span>bind space last-window
+</span></span></code></pre></div><p>Alright, now onto the point.  Setting the theme up to be something simple and readable is always the most annoying part.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># global status bar options</span>
+</span></span><span style="display:flex;"><span>set -g status-style bg<span style="color:#f92672">=</span>default
+</span></span><span style="display:flex;"><span>set -g status-style fg<span style="color:#f92672">=</span>default
+</span></span><span style="display:flex;"><span>set-option -g status-justify centre
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># left status bar options</span>
+</span></span><span style="display:flex;"><span>set-option -g status-left <span style="color:#e6db74">&#34;  #S&#34;</span>
+</span></span><span style="display:flex;"><span>set-option -g status-left-style <span style="color:#e6db74">&#34;dim&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># window list options</span>
+</span></span><span style="display:flex;"><span>set -g window-status-format <span style="color:#e6db74">&#34;#I #W&#34;</span>
+</span></span><span style="display:flex;"><span>set -g window-status-style <span style="color:#e6db74">&#34;nobold,dim&#34;</span>
+</span></span><span style="display:flex;"><span>set -g window-status-current-format <span style="color:#e6db74">&#34;#I #W&#34;</span>
+</span></span><span style="display:flex;"><span>set -g window-status-current-style <span style="color:#e6db74">&#34;bold&#34;</span>
+</span></span><span style="display:flex;"><span>set -g window-status-separator <span style="color:#e6db74">&#34;   &#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># right status bar options</span>
+</span></span><span style="display:flex;"><span>set-option -g status-right <span style="color:#e6db74">&#34;local  &#34;</span>
+</span></span><span style="display:flex;"><span>set-option -g status-right-style <span style="color:#e6db74">&#34;dim,fg=4&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># message colors</span>
+</span></span><span style="display:flex;"><span>set -g message-style <span style="color:#e6db74">&#34;fg=default,bg=default&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># pane border colors for splits</span>
+</span></span><span style="display:flex;"><span>set -g pane-border-style fg<span style="color:#f92672">=</span><span style="color:#ae81ff">7</span>
+</span></span><span style="display:flex;"><span>set -g pane-active-border-style fg<span style="color:#f92672">=</span><span style="color:#ae81ff">7</span>
+</span></span></code></pre></div><p>This is all it takes for me.  It looks like this:</p>
+<p><a href="/images/blog/tmux_config.png"><img src="/images/blog/tmux_config.png" alt="tmux config"></a></p>
+<p>The small <code>local</code> in the corner there is hardcoded from <code>status-right &quot;local  &quot;</code>, and all that does is pretty much tell me that this tmux session is not in ssh.  I have a copy of this config on my VPS where it&rsquo;s set as <code>vps</code> instead, etc.  The <code>blog</code> on the left there is just what I&rsquo;ve named the session with <code>control+a - s</code>.</p>
+
+          </div>
+        </section>
+      
+        <section class="blog-entry">
+          <h2 class="blog-title" id="youtube">youtube videos</h2>
           <p class="blog-date">2026-08-15</p>
           <div class="blog-body markdown">
             <p>this is a test blog post about youtuve videos</p>
@@ -602,7 +675,9 @@ separated text by one line</p>
         <nav>
           <ul>
             
-              <li><a href="#post3">youtube videos</a></li>
+              <li><a href="#09-16_tmux">.tmux configuration</a></li>
+            
+              <li><a href="#youtube">youtube videos</a></li>
             
               <li><a href="#post1">test blog post #1</a></li>
             

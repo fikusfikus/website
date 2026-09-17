@@ -12,7 +12,7 @@
   --color-border-inset: #000;
 }
 .site-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 3rem;
   font-weight: bold;
@@ -21,12 +21,19 @@
   color: #000
 }
 
+
 .menu-link.is-active {
   color: var(--primary);
 }
 
 .menu-link.is-active::before {
   background-color: var(--primary);
+}
+
+.menu-arrow-spacer {
+  width: 24px;
+  height: 1px;
+  flex: none;
 }
 
 
@@ -38,12 +45,6 @@
 
 .doc {
   grid-template-columns: 20% minmax(0, 1fr);
-}
-
-@media (min-width: /* whatever pixel value breakpoint(l) resolves to */) {
-  .doc {
-    grid-template-columns: 20% minmax(0, 1fr);
-  }
 }
 
 .aside {
@@ -117,7 +118,7 @@ a {
   }
 } 
 
-// markdown
+// --- markdown ---
 
 .markdown {
   --space-block: .25rem;
@@ -167,6 +168,10 @@ a {
   margin-top: 0px;
 }
 
+.article-title {
+  font-size: 2rem;
+}
+
 .article-header {
   margin-top: -16px;
 }
@@ -175,7 +180,32 @@ a {
   margin-bottom: 1rem;
 }
 
-// home entries / aggregate of all
+// inline code
+
+:not(pre) > code {
+  padding: .25em;
+  color: #fff;
+  background-color: #222222;
+  border-radius: .25rem;
+}
+
+// fenced code blocks
+
+.highlight {
+  background: #222222;
+}
+
+.markdown .highlight {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.highlight pre {
+  padding: 1.5rem 1.5rem;
+}
+
+
+// --- home entries / aggregate of all ---
 
 .home-entry {
   position: relative;
@@ -234,7 +264,7 @@ a {
 }
 
 
-// reading list / book entries
+// --- reading list / book entries ---
 
 
 
@@ -287,13 +317,13 @@ a {
 }
 
 
-// blog list / blog entries
+// --- blog list / blog entries ---
 
 .blog-entry {
   position: relative;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-//  border-bottom: 3px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .blog-title {
@@ -301,6 +331,7 @@ a {
   padding-top: 0;
   margin-bottom: 1rem;
   font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .blog-date {
@@ -313,10 +344,10 @@ a {
   text-decoration: underline;
 }
 
-// toc custom content (links page)
+// --- toc custom content (links/home page) ---
 
 .toc-custom-content {
-  padding: 3rem 1rem;
+  padding: 4rem 1rem;
   text-align: center;
 }
 

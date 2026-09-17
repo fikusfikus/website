@@ -15,7 +15,7 @@
     <loc>http://localhost:1313/audio/dulcimer/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/audio/</loc>
   </url><url>
@@ -24,7 +24,10 @@
     <loc>http://localhost:1313/links/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2026/09-16_tmux/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reading/2026/cooper_sluts/</loc>
     <lastmod>2026-08-29T00:00:00+00:00</lastmod>
@@ -150,9 +153,6 @@
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2026/post9/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2026/post3/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reading/2026/spark_prime/</loc>
