@@ -12,7 +12,8 @@
     {{ range (where .Section.Pages "Params.hidden" "ne" true) }}
       <li class="menu-item{{if or (eq $currentNode .Page) (.IsAncestor $currentNode )}} is-parent{{end}}">
 
-        {{ $hasVisibleChildren := gt (len (where .Pages "Params.hidden" "ne" true)) 0 }}
+	{{ $realChildren := where .Pages "RelPermalink" "ne" .RelPermalink }}
+{{ $hasVisibleChildren := gt (len (where $realChildren "Params.hidden" "ne" true)) 0 }}
         {{ if and .IsSection $hasVisibleChildren }}
 
           {{- if .Page.IsSection -}}
