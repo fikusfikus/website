@@ -233,6 +233,10 @@ a {
   font-weight: 700;
 }
 
+.home-entry-title:hover {
+  color: red;
+}
+
 .home-entry-author {
   font-weight: 400;
 }
@@ -253,6 +257,10 @@ a {
   text-decoration: underline dotted;
 }
 
+.home-entry-tag:hover {
+  color: red;
+}
+
 .home-entry-tag[href^="/reading/"] {
 //  color: #7C8BAB;
 //  text-decoration: underline #7c8bab;
@@ -264,6 +272,14 @@ a {
 }
 
 // --- reading all ---
+
+.reading-index-item {
+  text-decoration: underline dotted;
+}
+
+.reading-index-item:hover {
+  color: red;
+}
 
 .reading-index-item strong {
   font-weight: 700;
