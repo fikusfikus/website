@@ -23,6 +23,8 @@
   </url><url>
     <loc>http://localhost:1313/links/</loc>
   </url><url>
+    <loc>http://localhost:1313/reading/all/</loc>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-09-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -34,6 +36,9 @@
   </url><url>
     <loc>http://localhost:1313/reading/2026/johnson_jesus/</loc>
     <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2026/youtube/</loc>
+    <lastmod>2026-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reading/2026/plath_ariel/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>

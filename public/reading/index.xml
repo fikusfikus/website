@@ -10,8 +10,15 @@
 		
 		
 		
-			<lastBuildDate></lastBuildDate>
+			<lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/reading/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>all</title>
+				<link>http://localhost:1313/reading/all/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/reading/all/</guid>
+				<description>&lt;p&gt;In December of 2025 I just started reading mad books, idk why.  Here&amp;rsquo;s all the books I&amp;rsquo;ve read since 2026-12-01&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>

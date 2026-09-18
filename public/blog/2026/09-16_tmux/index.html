@@ -5,7 +5,7 @@
 <meta charset="UTF-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport">
 
-<title>.tmux configuration | jonny&#39;s site</title>
+<title>tmux configuration | jonny&#39;s site</title>
 <meta name="description" content=""/>
 <link rel="icon" href='/favicon.svg' type="image/svg+xml"/>
 <meta name="color-scheme" content="light dark">
@@ -15,7 +15,7 @@ It&amp;amp;rsquo;s pretty rare that I have to reconfigure tmux since I usually j
 ">
 <meta name="robots" content="index, follow">
 
-<meta property="og:title" content=".tmux configuration">
+<meta property="og:title" content="tmux configuration">
 <meta property="og:description" content="I&amp;amp;rsquo;m pretty much making this post just to have some test content for the blog section of my site lol.
 It&amp;amp;rsquo;s pretty rare that I have to reconfigure tmux since I usually just hang onto the same dot files forever, but it is always kind of a pain in the ass so I may as well log it here for future reference. I&amp;amp;rsquo;ve been planning on making a new website with the static site generator &amp;amp;ldquo;Hugo&amp;amp;rdquo; for a bit now. I&amp;amp;rsquo;ve been maining a hackintosh since ~2018 and for the past few years I&amp;amp;rsquo;ve just been letting it fall apart. I knew hackintosh was gonna die some day and since I generally refuse to update my OS ever if possible, I couldn&amp;amp;rsquo;t update the &amp;amp;ldquo;command line tools&amp;amp;rdquo; to install Hugo without updating the whole damn OS. I decided to say fuck it and just install Linux and Windows on some dual boot type shit. So now after about a week copying multiple TBs of data from APFS &amp;amp;gt; ExFat &amp;amp;gt; NTFS and configuring Debian-stable (I will avoid updating my shit at all costs), I&amp;amp;rsquo;ve finally got Hugo going. I use vim as my main text editor because I want to pretend I know what I&amp;amp;rsquo;m doing, so this means getting tmux to stay organized while I mess with Hugo. To avoid putting my NVME drive with hackintosh installed back into my PC to fetch my old tmux config, I decided to just make a new one. My last tmux config I made in probably 2014 was likely a mess of other people&amp;amp;rsquo;s configs spliced together. I&amp;amp;rsquo;m starting fresh and haven&amp;amp;rsquo;t made a tmux config in a while, so why not.
 ">
@@ -26,16 +26,16 @@ It&amp;amp;rsquo;s pretty rare that I have to reconfigure tmux since I usually j
   <meta name="twitter:url" content="http://localhost:1313/blog/2026/09-16_tmux/">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content=".tmux configuration">
+<meta name="twitter:title" content="tmux configuration">
 <meta name="twitter:description" content="I&amp;amp;rsquo;m pretty much making this post just to have some test content for the blog section of my site lol.
 It&amp;amp;rsquo;s pretty rare that I have to reconfigure tmux since I usually just hang onto the same dot files forever, but it is always kind of a pain in the ass so I may as well log it here for future reference. I&amp;amp;rsquo;ve been planning on making a new website with the static site generator &amp;amp;ldquo;Hugo&amp;amp;rdquo; for a bit now. I&amp;amp;rsquo;ve been maining a hackintosh since ~2018 and for the past few years I&amp;amp;rsquo;ve just been letting it fall apart. I knew hackintosh was gonna die some day and since I generally refuse to update my OS ever if possible, I couldn&amp;amp;rsquo;t update the &amp;amp;ldquo;command line tools&amp;amp;rdquo; to install Hugo without updating the whole damn OS. I decided to say fuck it and just install Linux and Windows on some dual boot type shit. So now after about a week copying multiple TBs of data from APFS &amp;amp;gt; ExFat &amp;amp;gt; NTFS and configuring Debian-stable (I will avoid updating my shit at all costs), I&amp;amp;rsquo;ve finally got Hugo going. I use vim as my main text editor because I want to pretend I know what I&amp;amp;rsquo;m doing, so this means getting tmux to stay organized while I mess with Hugo. To avoid putting my NVME drive with hackintosh installed back into my PC to fetch my old tmux config, I decided to just make a new one. My last tmux config I made in probably 2014 was likely a mess of other people&amp;amp;rsquo;s configs spliced together. I&amp;amp;rsquo;m starting fresh and haven&amp;amp;rsquo;t made a tmux config in a while, so why not.
 ">
     <link rel="preload" href="/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/scss/main.min.beee80d8e43fb23323a7c52f34975c73bde1527332448979e1fa18d0b5386117.css" integrity="sha256-vu6A2OQ/sjMjp8UvNJdcc73hUnMyRIl54foY0LU4YRc=">
+<link rel="stylesheet" href="/scss/main.min.27103ca96a92b58642b2eebb26361cc57814d566324611392181416f2c2c07f3.css" integrity="sha256-JxA8qWqStYZCsu67JjYcxXgU1WYyRhE5IYFBbywsB/M=">
 
     <script src="/js/bundle.min.dec4e1bf6df65947f89a6db57192e401dd5629a392145cd82e8eea185cc88fb2.js" integrity="sha256-3sThv232WUf4mm21cZLkAd1WKaOSFFzYLo7qGFzIj7I=" defer></script><script src="/flexsearch.bundle.min_13841517052725719104.min.8fc13a72a59d679bb7bf765a24e59b4b60d2f09d52839a9c1020461ad2adcd9f.js" integrity="sha256-j8E6cqWdZ5u3v3ZaJOWbS2DS8J1Sg5qcECBGGtKtzZ8=" defer></script>
-  <script src="/js/en.search.min.ba22fb5542764fcd7f7ae172ba3a624a5851a5ddc9f4f07ac3d1e457e88dfd3b.js" integrity="sha256-uiL7VUJ2T81/euFyujpiSlhRpd3J9PB6w9HkV&#43;iN/Ts=" defer></script>
+  <script src="/js/en.search.min.b8af216f1a04e6c77f706adc4306ca948d2883521cde6b3b230c5d32bf75eca6.js" integrity="sha256-uK8hbxoE5sd/cGrcQwbKlI0og1Ic3ms7IwxdMr917KY=" defer></script>
   </head>
   <body class="fs-7 fw-400">
     <div class="template flex column">
@@ -200,6 +200,20 @@ reading</a>
           
   
   <ul class="menu-list">
+    
+      <li class="menu-item">
+
+        
+        
+          
+
+  <a href="http://localhost:1313/reading/all/" data-name="all" class="menu-link fs-6">
+    
+all</a>
+
+        
+
+      </li>
     
       <li class="menu-item">
 
@@ -440,7 +454,7 @@ links</a>
         </aside>
         <main class="main main-index"><article class="article fs-6" data-i18n='{&#34;copied&#34;:&#34;Copied!&#34;,&#34;copy&#34;:&#34;Copy&#34;}'>
             <header class="article-header flex items-center">
-  <h1 class="article-title">.tmux configuration</h1></header>
+  <h1 class="article-title">tmux configuration</h1></header>
 <div class="article-body markdown"><p>I&rsquo;m pretty much making this post just to have some test content for the blog section of my site lol.</p>
 <p>It&rsquo;s pretty rare that I have to reconfigure tmux since I usually just hang onto the same dot files forever, but it is always kind of a pain in the ass so I may as well log it here for future reference.  I&rsquo;ve been planning on making a new website with the static site generator &ldquo;Hugo&rdquo; for a bit now.  I&rsquo;ve been maining a hackintosh since ~2018 and for the past few years I&rsquo;ve just been letting it fall apart.  I knew hackintosh was gonna die some day and since I generally refuse to update my OS ever if possible, I couldn&rsquo;t update the &ldquo;command line tools&rdquo; to install Hugo without updating the whole damn OS.  I decided to say fuck it and just install Linux and Windows on some dual boot type shit.  So now after about a week copying multiple TBs of data from APFS &gt; ExFat &gt; NTFS and configuring Debian-stable (I will avoid updating my shit at all costs), I&rsquo;ve finally got Hugo going.  I use vim as my main text editor because I want to pretend I know what I&rsquo;m doing, so this means getting tmux to stay organized while I mess with Hugo.  To avoid putting my NVME drive with hackintosh installed back into my PC to fetch my old tmux config, I decided to just make a new one.  My last tmux config I made in probably 2014 was likely a mess of other people&rsquo;s configs spliced together.  I&rsquo;m starting fresh and haven&rsquo;t made a tmux config in a while, so why not.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># remap prefix</span>

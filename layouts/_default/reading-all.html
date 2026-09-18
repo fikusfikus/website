@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="doc container" id="doc">
+  <aside class="aside" id="docs-sidebar">
+    {{ partial "sidebar" . }}
+  </aside>
+  <main class="main main-index">
+    <article class="article article-body fs-6" data-i18n='{{ (dict "copy" (i18n "copy") "copied" (i18n "copied")) | jsonify }}'>
+      <div class="page-intro">
+        <h1 class="article-title">{{ .Params.pageHeading | default .Title }}</h1>
+        <div class="markdown">
+          {{ .Content }}
+        </div>
+      </div>
+
+{{ $books := where .Site.RegularPages "Section" "reading" }}
+{{ $books = where $books "File.ContentBaseName" "ne" "all" }}
+
+{{ $sortable := slice }}
+{{ range $books }}
+  {{ $authorParts := split (.Params.author | default "") " " }}
+  {{ $lastName := index $authorParts (sub (len $authorParts) 1) }}
+  {{ $sortable = $sortable | append (dict "Page" . "LastName" $lastName) }}
+{{ end }}
+
+{{ $sorted := sort $sortable "LastName" "asc" }}
+
+{{ range $sorted }}
+  {{ $page := .Page }}
+  <p class="reading-index-item">
+    <a href="{{ $page.Parent.RelPermalink }}#{{ $page.File.ContentBaseName }}">
+      {{ with $page.Params.author }}
+        {{ $parts := split . " " }}
+        {{ $last := index $parts (sub (len $parts) 1) }}
+        {{ $first := delimit (first (sub (len $parts) 1) $parts) " " }}
+	<strong>{{ $last }}, {{ $first }}</strong> - 
+	{{ end }}<span class ="reading-index-title">{{ $page.Title }}</span>
+    </a>
+  </p>
+{{ end }}
+
+    </article>
+    <aside class="toc">
+	{{ partial "toc" . }}
+    </aside>
+  </main>
+</div>
+{{ end }}

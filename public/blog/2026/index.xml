@@ -14,7 +14,7 @@
 		
 			<atom:link href="http://localhost:1313/blog/2026/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>.tmux configuration</title>
+				<title>tmux configuration</title>
 				<link>http://localhost:1313/blog/2026/09-16_tmux/</link>
 				<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/blog/2026/09-16_tmux/</guid>
