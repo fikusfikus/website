@@ -12,20 +12,27 @@ function isVisible (elem) {
   )
 }
 
-let currentlyVisible = new Set()
 let isAtBottom = false
 
-function updateActiveLink () {
+function updateActiveLink (sections) {
   if (isAtBottom) return
-  if (currentlyVisible.size === 0) return
 
-  const sorted = Array.from(currentlyVisible).sort((a, b) => a.offsetTop - b.offsetTop)
-  const topSection = sorted[0]
+  const viewportMiddle = window.innerHeight / 2
+  let activeSection = null
+
+  sections.forEach((section) => {
+    const rect = section.getBoundingClientRect()
+    if (rect.top <= viewportMiddle && rect.bottom >= viewportMiddle) {
+      activeSection = section
+    }
+  })
+
+  if (!activeSection) return
 
   const tocLinks = TOC.querySelectorAll('a')
-  const tocLink = TOC.querySelector(`a[href="#${topSection.getAttribute('id')}"]`)
+  const tocLink = TOC.querySelector(`a[href="#${activeSection.getAttribute('id')}"]`)
 
-  if (tocLink) {
+  if (tocLink && !tocLink.classList.contains(VISIBLE_CLASS)) {
     tocLinks.forEach((link) => link.classList.remove(VISIBLE_CLASS))
     tocLink.classList.add(VISIBLE_CLASS)
     tocLink.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
@@ -37,35 +44,26 @@ function initToc () {
     return
   }
 
-  const sections = DOCS.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]')
+  const sections = DOCS.querySelectorAll('.book-entry[id], .blog-entry[id]')
   if (sections.length === 0) return
 
   const tocContent = TOC.querySelector('.toc-content')
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        currentlyVisible.add(entry.target)
-      } else {
-        currentlyVisible.delete(entry.target)
-      }
-    })
-    updateActiveLink()
-  }, {
-    rootMargin: '0px 0px -60% 0px',
-    threshold: 0
-  })
-
-  sections.forEach((section) => observer.observe(section))
-
-  window.addEventListener('scroll', () => {
+  function checkScrollPosition () {
     const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
     const scrollBottom = scrollTop + window.innerHeight
     const pageHeight = document.documentElement.scrollHeight
     isAtBottom = scrollBottom >= pageHeight
+    const isAtTop = scrollTop <= 0
 
-    if (scrollTop <= 0 && tocContent) {
-      tocContent.scrollTop = 0
+    if (isAtTop) {
+      if (tocContent) tocContent.scrollTop = 0
+      const firstSection = sections[0]
+      const firstLink = TOC.querySelector(`a[href="#${firstSection.getAttribute('id')}"]`)
+      if (firstLink) {
+        TOC.querySelectorAll('a').forEach((link) => link.classList.remove(VISIBLE_CLASS))
+        firstLink.classList.add(VISIBLE_CLASS)
+      }
     } else if (isAtBottom) {
       if (tocContent) tocContent.scrollTop = tocContent.scrollHeight
       const lastSection = sections[sections.length - 1]
@@ -74,8 +72,16 @@ function initToc () {
         TOC.querySelectorAll('a').forEach((link) => link.classList.remove(VISIBLE_CLASS))
         lastLink.classList.add(VISIBLE_CLASS)
       }
+    } else {
+      updateActiveLink(sections)
     }
-  })
+  }
+
+  window.addEventListener('scroll', checkScrollPosition)
+  window.addEventListener('resize', checkScrollPosition)
+  window.addEventListener('load', checkScrollPosition)
+
+  checkScrollPosition()
 
   TOC_TOGGLE.onclick = () => {
     if (isVisible(TOC)) {

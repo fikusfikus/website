@@ -16,3 +16,5 @@ Some links to websites made by friends
 [binkle's dutchy](https://binklesduchy.neocities.org/)
 
 [hilary lawson art](https://www.arymim.com/)
+
+[petal.im](https://petal.im/)

@@ -14,8 +14,8 @@
 
       {{ $posts := sort .Pages "Date" "desc" }}
       {{ range $posts }}
-        <section class="blog-entry">
-          <h2 class="blog-title" id="{{ .File.ContentBaseName }}">{{ .Title }}</h2>
+        <section class="blog-entry" id="{{ .File.ContentBaseName }}">
+          <h2 class="blog-title">{{ .Title }}</h2>
           <p class="blog-date">{{ .Date.Format "2006-01-02" }}</p>
           <div class="blog-body markdown">
             {{ .Content }}
