@@ -5,6 +5,9 @@ when changing background color
 	check /layouts/_default/redirect.html
 	to change the color of the load flash
 
-/reading/2026/
-The Sluts - Dennis Cooper
-2026-08-20
+book-entry toc-track-entry
+blog-entry toc-track-entry
+	this is the class template used for reading/blogs, in toc.js there is
+	DOCS.querySelectorAll('[class*="toc-track-"]')
+	so any new pages that will include entries with the toc, needs to
+	adhere to this format for the toc to work properly

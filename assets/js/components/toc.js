@@ -44,7 +44,7 @@ function initToc () {
     return
   }
 
-  const sections = DOCS.querySelectorAll('.book-entry[id], .blog-entry[id]')
+  const sections = DOCS.querySelectorAll('[class*="toc-track-"]')
   if (sections.length === 0) return
 
   const tocContent = TOC.querySelector('.toc-content')
