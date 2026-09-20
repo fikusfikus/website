@@ -13,15 +13,18 @@
       </div>
       {{ $books := sort .Pages "Date" "desc" }}
 
-        {{ range $books }}
-        <section class="reading-entry toc-track-book" id="{{ .File.ContentBaseName }}">
-		<span class="reading-entry-tag">{{ .Parent.RelPermalink }}</span>
-        {{ with .Params.cover }}
-		<a href="{{ . }}" target="_blank" rel="noopener">
-		<img src="{{ . }}" class="book-cover" alt="{{ $.Title }} cover">
-		</a>
-		{{ end }}
-        	<h2 class="book-title">{{ .Title }}</h2>
+{{ $base := urls.Parse site.BaseURL }}
+{{ $prefix := strings.TrimSuffix "/" $base.Path }}
+{{ range $books }}
+<section class="reading-entry toc-track-book" id="{{ .File.ContentBaseName }}">
+  <span class="reading-entry-tag">{{ .Parent.RelPermalink }}</span>
+  {{ with .Params.cover }}
+    <a href="{{ printf "%s%s" $prefix . }}" target="_blank" rel="noopener">
+      <img src="{{ printf "%s%s" $prefix . }}" class="book-cover" alt="{{ $.Title }} cover">
+    </a>
+  {{ end }}
+  <h2 class="book-title">{{ .Title }}</h2>
+
         	<p class="book-author">{{ .Params.author }}</p>
         {{ with .Params.year }}<p class="book-year">{{ . }}</p>{{ end }}
 		<p class="book-date">{{ .Date.Format "2006-01-02" }}</p>

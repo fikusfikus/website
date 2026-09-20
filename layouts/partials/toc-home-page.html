@@ -1,4 +1,6 @@
+{{ $base := urls.Parse site.BaseURL }}
+{{ $prefix := strings.TrimSuffix "/" $base.Path }}
 <div class="toc-custom-content">
-  <img src="/images/misc/smile.png" alt="A description" class="toc-custom-image">
+  <img src="{{ printf "%s%s" $prefix "/images/misc/smile.png" }}" alt="A description" class="toc-custom-image">
   <p class="toc-custom-text">test text home</p>
 </div>

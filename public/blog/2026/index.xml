@@ -46,7 +46,7 @@
 				<link>http://localhost:1313/website/blog/2026/post2/</link>
 				<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/website/blog/2026/post2/</guid>
-				<description>&lt;p&gt;this is a test blog post about ncmpcpp&lt;/p&gt;&#xA;&lt;p&gt;what happens when i separate things by two lines&lt;/p&gt;&#xA;&lt;p&gt;what happens when I try an image&#xA;&lt;a href=&#34;http://localhost:1313/website/images/blog/ncmpcpp.png&#34;&gt;&lt;a href=&#34;http://localhost:1313/website/images/blog/ncmpcpp.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/website/images/blog/ncmpcpp.png&#34; alt=&#34;caption&#34;&gt;&#xA;&lt;/a&gt;&#xA;&lt;/a&gt;&#xA;some text after the image&#xA;separated text by one line&lt;/p&gt;</description>
+				<description>&lt;p&gt;this is a test blog post about ncmpcpp&lt;/p&gt;&#xA;&lt;p&gt;what happens when i separate things by two lines&lt;/p&gt;&#xA;&lt;p&gt;what happens when I try an image&#xA;&#xA;&#xA;&#xA;&lt;a href=&#34;http://localhost:1313/website/images/blog/ncmpcpp.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/website/images/blog/ncmpcpp.png&#34; alt=&#34;caption&#34;&gt;&#xA;&lt;/a&gt;&#xA;&#xA;some text after the image&#xA;separated text by one line&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>test blog post</title>
