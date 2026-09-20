@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=website/livereload" data-no-instant defer></script>
     
 <meta charset="UTF-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport">
 
 <title>tmux configuration | jonny&#39;s site</title>
 <meta name="description" content=""/>
-<link rel="icon" href='/favicon.svg' type="image/svg+xml"/>
+<link rel="icon" href='/website/favicon.svg' type="image/svg+xml"/>
 <meta name="color-scheme" content="light dark">
 <script>document.documentElement.classList.add("light")</script>
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name="description" content="I&amp;amp;rsquo;m pretty much making this post just to have some test content for the blog section of my site lol.
@@ -21,21 +21,21 @@ It&amp;amp;rsquo;s pretty rare that I have to reconfigure tmux since I usually j
 ">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="jonny&amp;#39;s site">
-  <link rel="canonical" href="http://localhost:1313/blog/2026/09-16_tmux/">
-  <meta property="og:url" content="http://localhost:1313/blog/2026/09-16_tmux/">
-  <meta name="twitter:url" content="http://localhost:1313/blog/2026/09-16_tmux/">
+  <link rel="canonical" href="http://localhost:1313/website/blog/2026/09-16_tmux/">
+  <meta property="og:url" content="http://localhost:1313/website/blog/2026/09-16_tmux/">
+  <meta name="twitter:url" content="http://localhost:1313/website/blog/2026/09-16_tmux/">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="tmux configuration">
 <meta name="twitter:description" content="I&amp;amp;rsquo;m pretty much making this post just to have some test content for the blog section of my site lol.
 It&amp;amp;rsquo;s pretty rare that I have to reconfigure tmux since I usually just hang onto the same dot files forever, but it is always kind of a pain in the ass so I may as well log it here for future reference. I&amp;amp;rsquo;ve been planning on making a new website with the static site generator &amp;amp;ldquo;Hugo&amp;amp;rdquo; for a bit now. I&amp;amp;rsquo;ve been maining a hackintosh since ~2018 and for the past few years I&amp;amp;rsquo;ve just been letting it fall apart. I knew hackintosh was gonna die some day and since I generally refuse to update my OS ever if possible, I couldn&amp;amp;rsquo;t update the &amp;amp;ldquo;command line tools&amp;amp;rdquo; to install Hugo without updating the whole damn OS. I decided to say fuck it and just install Linux and Windows on some dual boot type shit. So now after about a week copying multiple TBs of data from APFS &amp;amp;gt; ExFat &amp;amp;gt; NTFS and configuring Debian-stable (I will avoid updating my shit at all costs), I&amp;amp;rsquo;ve finally got Hugo going. I use vim as my main text editor because I want to pretend I know what I&amp;amp;rsquo;m doing, so this means getting tmux to stay organized while I mess with Hugo. To avoid putting my NVME drive with hackintosh installed back into my PC to fetch my old tmux config, I decided to just make a new one. My last tmux config I made in probably 2014 was likely a mess of other people&amp;amp;rsquo;s configs spliced together. I&amp;amp;rsquo;m starting fresh and haven&amp;amp;rsquo;t made a tmux config in a while, so why not.
 ">
-    <link rel="preload" href="/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/scss/main.min.9346cb6560da93659dbdae259bfada544d729746737aad953bf796fb0a70d10b.css" integrity="sha256-k0bLZWDak2Wdva4lm/raVE1yl0Zzeq2VO/eW&#43;wpw0Qs=">
+    <link rel="preload" href="/website/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/website/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/website/scss/main.min.f4776b03f635cf3d14f92c163f2d61ae6709f520b38655d8bcbf4d2d0159a06c.css" integrity="sha256-9HdrA/Y1zz0U&#43;SwWPy1hrmcJ9SCzhlXYvL9NLQFZoGw=">
 
-    <script src="/js/bundle.min.0599bf4ccce7794081d07b61963520b4735ad3cd5c797322c7ef5520980c8f29.js" integrity="sha256-BZm/TMzneUCB0HthljUgtHNa081ceXMix&#43;9VIJgMjyk=" defer></script><script src="/flexsearch.bundle.min_13841517052725719104.min.8fc13a72a59d679bb7bf765a24e59b4b60d2f09d52839a9c1020461ad2adcd9f.js" integrity="sha256-j8E6cqWdZ5u3v3ZaJOWbS2DS8J1Sg5qcECBGGtKtzZ8=" defer></script>
-  <script src="/js/en.search.min.c91dac3eb028a0d79e91417a866ae587073dff34f49056b3c80c9dae95347582.js" integrity="sha256-yR2sPrAooNeekUF6hmrlhwc9/zT0kFazyAydrpU0dYI=" defer></script>
+    <script src="/website/js/bundle.min.0599bf4ccce7794081d07b61963520b4735ad3cd5c797322c7ef5520980c8f29.js" integrity="sha256-BZm/TMzneUCB0HthljUgtHNa081ceXMix&#43;9VIJgMjyk=" defer></script><script src="/website/flexsearch.bundle.min_13841517052725719104.min.8fc13a72a59d679bb7bf765a24e59b4b60d2f09d52839a9c1020461ad2adcd9f.js" integrity="sha256-j8E6cqWdZ5u3v3ZaJOWbS2DS8J1Sg5qcECBGGtKtzZ8=" defer></script>
+  <script src="/website/js/en.search.min.fa6834e30469dce85fc9f2c199bae72a7e901dacd59fedc58e9326d28223faad.js" integrity="sha256-&#43;mg04wRp3OhfyfLBmbrnKn6QHazVn&#43;3FjpMm0oIj&#43;q0=" defer></script>
   </head>
   <body class="fs-7 fw-400">
     <div class="template flex column">
@@ -138,7 +138,7 @@ It&amp;amp;rsquo;s pretty rare that I have to reconfigure tmux since I usually j
         
           
 
-  <a href="http://localhost:1313/home/" data-name="home" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/home/" data-name="home" class="menu-link fs-6">
     
 home</a>
 
@@ -156,7 +156,7 @@ home</a>
           <label for="menu-171e040a48c7db334598d071bb69a4c1" class="menu-label">
   
 
-  <a href="http://localhost:1313/reading/" data-name="reading" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/reading/" data-name="reading" class="menu-link fs-6">
     
 reading</a>
 
@@ -210,7 +210,7 @@ reading</a>
         
           
 
-  <a href="http://localhost:1313/reading/all/" data-name="all" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/reading/all/" data-name="all" class="menu-link fs-6">
     
 all</a>
 
@@ -225,7 +225,7 @@ all</a>
         
           
 
-  <a href="http://localhost:1313/reading/2026/" data-name="2026" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/reading/2026/" data-name="2026" class="menu-link fs-6">
     
 2026</a>
 
@@ -240,7 +240,7 @@ all</a>
         
           
 
-  <a href="http://localhost:1313/reading/2025/" data-name="2025" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/reading/2025/" data-name="2025" class="menu-link fs-6">
     
 2025</a>
 
@@ -264,7 +264,7 @@ all</a>
           <label for="menu-adfc8a58e75788b84b52fb1e97951b96" class="menu-label">
   
 
-  <a href="http://localhost:1313/blog/" data-name="blog" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/blog/" data-name="blog" class="menu-link fs-6">
     
 blog</a>
 
@@ -318,7 +318,7 @@ blog</a>
         
           
 
-  <a href="http://localhost:1313/blog/2026/" data-name="2026" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/blog/2026/" data-name="2026" class="menu-link fs-6">
     
 2026</a>
 
@@ -342,7 +342,7 @@ blog</a>
           <label for="menu-1e0eaf0d7019bf0bd2fc639dab0b4f99" class="menu-label">
   
 
-  <a href="http://localhost:1313/audio/" data-name="audio" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/audio/" data-name="audio" class="menu-link fs-6">
     
 audio</a>
 
@@ -396,7 +396,7 @@ audio</a>
         
           
 
-  <a href="http://localhost:1313/audio/lawnwater/" data-name="lawnwater" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/audio/lawnwater/" data-name="lawnwater" class="menu-link fs-6">
     
 lawn water</a>
 
@@ -411,7 +411,7 @@ lawn water</a>
         
           
 
-  <a href="http://localhost:1313/audio/dulcimer/" data-name="dulcimer" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/audio/dulcimer/" data-name="dulcimer" class="menu-link fs-6">
     
 dulcimer</a>
 
@@ -432,7 +432,7 @@ dulcimer</a>
         
           
 
-  <a href="http://localhost:1313/video/" data-name="video" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/video/" data-name="video" class="menu-link fs-6">
     
 video</a>
 
@@ -447,7 +447,7 @@ video</a>
         
           
 
-  <a href="http://localhost:1313/links/" data-name="links" class="menu-link fs-6">
+  <a href="http://localhost:1313/website/links/" data-name="links" class="menu-link fs-6">
     
 links</a>
 

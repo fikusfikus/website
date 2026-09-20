@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>audio on jonny&#39;s site</title>
-		<link>http://localhost:1313/audio/</link>
+		<link>http://localhost:1313/website/audio/</link>
 		<description>Recent content in audio on jonny&#39;s site</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,19 +10,19 @@
 		
 		
 		
-			<atom:link href="http://localhost:1313/audio/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/website/audio/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>lawn water</title>
-				<link>http://localhost:1313/audio/lawnwater/</link>
+				<link>http://localhost:1313/website/audio/lawnwater/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/audio/lawnwater/</guid>
+				<guid>http://localhost:1313/website/audio/lawnwater/</guid>
 				<description>&lt;p&gt;The logo can be composed of text, an icon from the &lt;a href=&#34;https://meteoricons.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Meteor Icons&lt;/a&gt; package along with text, or an image. Keep in mind that if you use an image, it is recommended to use the appropriate size or utilize the SVG format.&lt;/p&gt;&#xA;&lt;h2 id=&#34;parameters&#34;&gt;&#xA;  Parameters&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#parameters&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In this case, you have two custom parameters available. If you want an icon alongside the text, define &lt;code&gt;logo_icon&lt;/code&gt; with the name of the icon you can obtain from &lt;a href=&#34;https://meteoricons.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Meteor Icons&lt;/a&gt;. If you want an image, define &lt;code&gt;logo_img&lt;/code&gt;. If you don&amp;rsquo;t define either of them, only the text will be displayed.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>dulcimer</title>
-				<link>http://localhost:1313/audio/dulcimer/</link>
+				<link>http://localhost:1313/website/audio/dulcimer/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/audio/dulcimer/</guid>
+				<guid>http://localhost:1313/website/audio/dulcimer/</guid>
 				<description>&lt;p&gt;The logo can be composed of text, an icon from the &lt;a href=&#34;https://meteoricons.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Meteor Icons&lt;/a&gt; package along with text, or an image. Keep in mind that if you use an image, it is recommended to use the appropriate size or utilize the SVG format.&lt;/p&gt;&#xA;&lt;h2 id=&#34;parameters&#34;&gt;&#xA;  Parameters&#xA;  &lt;a class=&#34;anchor&#34; aria-label=&#34;Anchor&#34; href=&#34;#parameters&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In this case, you have two custom parameters available. If you want an icon alongside the text, define &lt;code&gt;logo_icon&lt;/code&gt; with the name of the icon you can obtain from &lt;a href=&#34;https://meteoricons.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Meteor Icons&lt;/a&gt;. If you want an image, define &lt;code&gt;logo_img&lt;/code&gt;. If you don&amp;rsquo;t define either of them, only the text will be displayed.&lt;/p&gt;</description>
 			</item>
 	</channel>
