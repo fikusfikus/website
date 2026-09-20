@@ -1,7 +1,7 @@
 // You can add your own custom SCSS here.
 
 :root {
-  --bg-main: #fff;
+  --bg-main: #F2F2F2;
   --header-height: 0px;
   --color-title: #000;
   --color-text: #000;
@@ -167,9 +167,9 @@ a {
 }
 
 .page-intro {
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 3px solid var(--color-border);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+//  border-bottom: 3px solid var(--color-border);
   margin-top: 0px;
 }
 
@@ -214,13 +214,27 @@ a {
 
 .home-entry {
   position: relative;
-  padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
   padding-right: 8rem;
+//  box-shadow: inset 0px 2rem 0rem #6091e0;
+  border: 3px solid var(--color-border);
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
 }
 
+.home-entry:has(.home-entry-tag[href^="/reading/"]) {
+  box-shadow: inset 0rem 2rem 0rem #6091e0;
+}
+
+.home-entry:has(.home-entry-tag[href^="/blog/"]) {
+  box-shadow: inset 0px 2rem 0rem #9678b0;
+}
+
+
 .home-entry.entry-divider {
-  border-bottom-width: 1px;
+//  border-bottom-width: 0px;
 }
 
 .home-entry-header {
@@ -249,18 +263,23 @@ a {
 
 .home-entry-date {
   position: absolute;
-  top: 0;
-  right: 0;
-  color: var(--color-meta);
+  top: 0.3rem;
+  right: 0.2rem;
+  color: var(--color-text);
   font-size: 0.875rem;
-  text-decoration: underline;
+//  text-decoration: underline;
+  
 }
 
 .home-entry-tag {
-  font-size: 1rem;
+  position: absolute;
+  top: 0.3rem;
+  left: 0.2rem;
   color: var(--color-title);
-  white-space: nowrap;
-  text-decoration: underline dotted;
+//  white-space: nowrap;
+  font-size: 0.875rem;
+  font-weight: 700;
+//  text-decoration: underline dotted;
 }
 
 .home-entry-tag:hover {
@@ -301,18 +320,23 @@ a {
 .book-entry {
   display: flow-root;
   margin-bottom: 3rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
-//  border-bottom: 3px solid var(--color-border);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 3px solid var(--color-border);
   position: relative;
+  background-color: #ffffff;
+  box-shadow: inset 0px 2rem 0rem #6091e0;
 }
 
 .book-date {
   position: absolute;
-  top: 0;
-  right: 0;
-  color: var(--color-meta);
+  top: 0.3rem;
+  right: 0.2rem;
+  color: var(--color-text);
   font-size: 0.875rem;
-  text-decoration: underline;
+//  text-decoration: underline;
 }
 
 .book-cover {
@@ -353,12 +377,18 @@ a {
   position: relative;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--color-border);
+  border: 3px solid var(--color-border);
+  box-shadow: inset 0px 2rem 0rem #9678b0;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
 }
 
 .blog-title {
   border-top: none;
-  padding-top: 0;
+  padding-top: 0rem;
   margin-bottom: 1rem;
   font-weight: 700;
   font-size: 1.5rem;
@@ -368,10 +398,16 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  color: var(--color-meta);
+  color: var(--color-text);
   font-size: 0.875rem;
   margin-bottom: 1rem;
-  text-decoration: underline;
+//  text-decoration: underline;
+  padding-right: .5rem;
+  padding-top: .3rem;
+  padding-right: .2rem;
+  padding-left: 0rem;
+  padding-right: .5rem;
+
 }
 
 // --- toc custom content (links/home page) ---
