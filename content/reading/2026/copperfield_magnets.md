@@ -2,7 +2,7 @@
 title: "Little Magnets"
 author: "Daniel Copperfield"
 year: ????
-cover: "/images/books/quinn_magnets.jpg"
+cover: "/images/books/copperfield_magnets.jpg"
 date: 2026-02-28
 hidden: true
 ---

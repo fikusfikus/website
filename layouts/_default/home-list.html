@@ -22,7 +22,7 @@
               {{ .Title }}{{ with .Params.author }} - <span class="home-entry-author">{{ . }}</span>{{ end }}
             </a>
           </h2>
-          <a class="home-entry-tag" href="{{ $anchor }}">{{ .Parent.RelPermalink }}</a>
+	  <span class="home-entry-tag" data-section="{{ .Section }}">{{ .Parent.RelPermalink }}</span>
         </section>
       {{ end }}
     </article>

@@ -14,7 +14,8 @@
       {{ $books := sort .Pages "Date" "desc" }}
 
         {{ range $books }}
-        <section class="book-entry toc-track-book" id="{{ .File.ContentBaseName }}">
+        <section class="reading-entry toc-track-book" id="{{ .File.ContentBaseName }}">
+		<span class="reading-entry-tag">{{ .Parent.RelPermalink }}</span>
         {{ with .Params.cover }}
 		<a href="{{ . }}" target="_blank" rel="noopener">
 		<img src="{{ . }}" class="book-cover" alt="{{ $.Title }} cover">
